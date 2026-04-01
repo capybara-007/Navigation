@@ -259,6 +259,20 @@ class ImageGrabber : public rclcpp::Node {
              cv::resize(imRgb, rgb_input, dsize, 0, 0, cv::INTER_LINEAR); // RGB用线性插值更好
              cv::resize(imDepth, depth_input, dsize, 0, 0, cv::INTER_NEAREST); // 深度必须用最近邻
         }
+        
+        // ===================== 【核心修复】深度图“一刀切”物理截断 =====================
+        // 在传给 SLAM 之前，直接把 5 米开外的深度数据抹零 (0 代表无效像素)
+        // 这样 SLAM 和“伪雷达”就绝对不可能在 5 米外提取出包含极大坐标的噪点
+        if (depth_input.type() == CV_16U) {
+            // RealSense D435i 默认的 16UC1 格式，单位是毫米 (5米 = 5000毫米)
+            // THRESH_TOZERO_INV 的意思是：大于 5000 的全部变成 0，小于等于 5000 的保持原样
+            cv::threshold(depth_input, depth_input, 5000.0, 0, cv::THRESH_TOZERO_INV);
+        } 
+        else if (depth_input.type() == CV_32F) {
+            // 如果深度图是 32FC1 格式，单位通常是米 (5.0米)
+            cv::threshold(depth_input, depth_input, 5.0, 0, cv::THRESH_TOZERO_INV);
+        }
+        // ==============================================================================
 
         // 调用 SLAM
         {

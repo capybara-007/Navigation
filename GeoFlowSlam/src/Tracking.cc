@@ -2074,19 +2074,19 @@ void Tracking::Track() {
       return;
     } else if (mCurrentFrame.mTimeStamp > mLastFrame.mTimeStamp + 1.0) {
       if (mpAtlas->isInertial()) {
+        double timeDiff = mCurrentFrame.mTimeStamp - mLastFrame.mTimeStamp;
         if (mpAtlas->isImuInitialized()) {
-          cout << "Timestamp jump detected. State set to LOST. "
-                  "Reseting IMU integration..."
-               << endl;
+          cout << "Timestamp jump detected (Diff: " << timeDiff << "s). State set to LOST. "
+                  "Reseting IMU integration..." << endl;
+          
           if (!pCurrentMap->GetIniertialBA2()) {
             mpSystem->ResetActiveMap();
           } else {
             CreateMapInAtlas();
           }
         } else {
-          cout << "Timestamp jump detected, before IMU "
-                  "initialization. Reseting..."
-               << endl;
+          cout << "Timestamp jump detected (Diff: " << timeDiff << "s), before IMU "
+                  "initialization. Reseting..." << endl;
           mpSystem->ResetActiveMap();
         }
         return;

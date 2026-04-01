@@ -1,4 +1,3 @@
-
 #include "LidarProcess.h"
 
 namespace ORB_SLAM3 {
@@ -12,8 +11,10 @@ void LaserProcessingClass::init(std::string& file_path) {
                                    map_resolution / 2.0);
 
   edge_noise_filter.setRadiusSearch(map_resolution);
+  // 设置边缘点滤波器参数
   edge_noise_filter.setMinNeighborsInRadius(3);
   surf_noise_filter.setRadiusSearch(map_resolution);
+  // 设置平面点滤波器的参数
   surf_noise_filter.setMinNeighborsInRadius(14);
 }
 
