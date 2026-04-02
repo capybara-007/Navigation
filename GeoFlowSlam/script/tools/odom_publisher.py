@@ -79,6 +79,10 @@ class OdomPublisher(Node):
             # 使用 Little-Endian 解析 64位 无符号整数
             raw_val = struct.unpack('<Q', data_bytes)[0]
 
+            # 依据协议：CCU ShiftLevel Sts 起始位0，长度2。
+            # 取最低的 2 个 bit
+            gear_status = raw_val & 0x03
+
             # 解析速度 
             # 移位 20 bits，取 9 bits (0x1FF)
             speed_raw_val = (raw_val >> 20) & 0x1FF
@@ -92,6 +96,10 @@ class OdomPublisher(Node):
             # 应用死区和校准
             if abs(speed_mps) < STOP_THRESHOLD:
                 speed_mps = 0.0
+            
+            # 协议规定：0x1:D, 0x2:N, 0x3:R
+            if gear_status == 3:
+                speed_mps = -speed_mps
             
             final_speed_mps = speed_mps * CORRECTION_FACTOR
 
@@ -133,7 +141,7 @@ class OdomPublisher(Node):
             self.odom_pub.publish(msg)
 
             # [调试打印] 
-            print(f"Raw: {raw_val:016X} | Spd: {final_speed_mps:.2f} m/s | Steer: {steering_angle_deg:.2f}° | W: {calculated_angular_z:.2f}")
+            # print(f"Raw: {raw_val:016X} | Spd: {final_speed_mps:.2f} m/s | Steer: {steering_angle_deg:.2f}° | W: {calculated_angular_z:.2f}")
 
         except Exception as e:
             self.get_logger().warn(f"解析异常: {e}")
