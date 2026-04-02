@@ -1,0 +1,755 @@
+[0.006s] Invoking command in '/home/zju/navigation/GeoFlowSlam/build/orbslam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zju/navigation/GeoFlowSlam/build/orbslam3 -- -j20 -l20
+[0.047s] [  2%] [32mBuilding CXX object CMakeFiles/pointcloud_to_gridmap_node.dir/src/pointcloud_to_gridmap.cpp.o[0m
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target orbslam3[0m
+[0.146s] [  5%] [32mBuilding CXX object CMakeFiles/orbslam3.dir/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc.o[0m
+[1.663s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:34[m[K,
+[1.663s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30[m[K,
+[1.663s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/GeometricCamera.h:39[m[K,
+[1.663s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:30[m[K,
+[1.663s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:30[m[K,
+[1.663s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22[m[K:
+[1.663s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:74:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[1.663s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[1.663s]       |                                                                          [01;35m[K^~~~~~~~~~[m[K
+[1.663s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:161[m[K,
+[1.664s]                  from [01m[K/usr/local/include/pangolin/gl/opengl_render_state.h:40[m[K,
+[1.664s]                  from [01m[K/usr/local/include/pangolin/handler/handler.h:30[m[K,
+[1.664s]                  from [01m[K/usr/local/include/pangolin/display/widgets.h:32[m[K,
+[1.664s]                  from [01m[K/usr/local/include/pangolin/pangolin.h:40[m[K,
+[1.664s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:26[m[K,
+[1.664s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22[m[K:
+[1.664s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.664s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[1.664s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[1.667s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+[1.667s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30[m[K,
+[1.667s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/GeometricCamera.h:39[m[K,
+[1.667s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:30[m[K,
+[1.667s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:30[m[K,
+[1.667s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22[m[K:
+[1.667s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[1.667s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[1.667s]       |                                                                                  [01;35m[K^~~~~~~~~~[m[K
+[1.667s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:161[m[K,
+[1.667s]                  from [01m[K/usr/local/include/pangolin/gl/opengl_render_state.h:40[m[K,
+[1.667s]                  from [01m[K/usr/local/include/pangolin/handler/handler.h:30[m[K,
+[1.667s]                  from [01m[K/usr/local/include/pangolin/display/widgets.h:32[m[K,
+[1.667s]                  from [01m[K/usr/local/include/pangolin/pangolin.h:40[m[K,
+[1.667s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:26[m[K,
+[1.667s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22[m[K:
+[1.667s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.667s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[1.667s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[1.667s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+[1.668s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30[m[K,
+[1.668s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/GeometricCamera.h:39[m[K,
+[1.668s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:30[m[K,
+[1.668s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:30[m[K,
+[1.668s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22[m[K:
+[1.668s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[1.668s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[1.668s]       |                                                                                  [01;35m[K^~~~~~~~~~[m[K
+[1.668s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:161[m[K,
+[1.668s]                  from [01m[K/usr/local/include/pangolin/gl/opengl_render_state.h:40[m[K,
+[1.668s]                  from [01m[K/usr/local/include/pangolin/handler/handler.h:30[m[K,
+[1.668s]                  from [01m[K/usr/local/include/pangolin/display/widgets.h:32[m[K,
+[1.668s]                  from [01m[K/usr/local/include/pangolin/pangolin.h:40[m[K,
+[1.668s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:26[m[K,
+[1.668s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22[m[K:
+[1.668s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.668s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[1.668s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[1.904s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:34[m[K,
+[1.904s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30[m[K,
+[1.904s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/GeometricCamera.h:39[m[K,
+[1.904s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:30[m[K,
+[1.904s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:30[m[K,
+[1.904s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22[m[K:
+[1.905s] /home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<3, Eigen::Matrix<double, 3, 1> >[m[K’:
+[1.905s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_sba.h:40:35:[m[K   required from here
+[1.905s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[1.905s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[1.905s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[1.905s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:161[m[K,
+[1.905s]                  from [01m[K/usr/local/include/pangolin/gl/opengl_render_state.h:40[m[K,
+[1.905s]                  from [01m[K/usr/local/include/pangolin/handler/handler.h:30[m[K,
+[1.905s]                  from [01m[K/usr/local/include/pangolin/display/widgets.h:32[m[K,
+[1.905s]                  from [01m[K/usr/local/include/pangolin/pangolin.h:40[m[K,
+[1.905s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:26[m[K,
+[1.905s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22[m[K:
+[1.905s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.905s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[1.905s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[1.911s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:34[m[K,
+[1.911s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30[m[K,
+[1.911s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/GeometricCamera.h:39[m[K,
+[1.911s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:30[m[K,
+[1.911s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:30[m[K,
+[1.911s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22[m[K:
+[1.911s] /home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<6, g2o::SE3Quat>[m[K’:
+[1.911s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:59:33:[m[K   required from here
+[1.911s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[1.911s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[1.911s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[1.911s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:161[m[K,
+[1.911s]                  from [01m[K/usr/local/include/pangolin/gl/opengl_render_state.h:40[m[K,
+[1.911s]                  from [01m[K/usr/local/include/pangolin/handler/handler.h:30[m[K,
+[1.911s]                  from [01m[K/usr/local/include/pangolin/display/widgets.h:32[m[K,
+[1.911s]                  from [01m[K/usr/local/include/pangolin/pangolin.h:40[m[K,
+[1.911s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:26[m[K,
+[1.911s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22[m[K:
+[1.911s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.911s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[1.911s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[1.922s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+[1.922s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30[m[K,
+[1.922s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/GeometricCamera.h:39[m[K,
+[1.922s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:30[m[K,
+[1.922s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:30[m[K,
+[1.922s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22[m[K:
+[1.922s] /home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<6, g2o::SE3Quat, g2o::VertexSE3Expmap, g2o::VertexSE3Expmap>[m[K’:
+[1.922s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:83:24:[m[K   required from here
+[1.922s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[1.922s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[1.922s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[1.922s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:161[m[K,
+[1.922s]                  from [01m[K/usr/local/include/pangolin/gl/opengl_render_state.h:40[m[K,
+[1.922s]                  from [01m[K/usr/local/include/pangolin/handler/handler.h:30[m[K,
+[1.922s]                  from [01m[K/usr/local/include/pangolin/display/widgets.h:32[m[K,
+[1.923s]                  from [01m[K/usr/local/include/pangolin/pangolin.h:40[m[K,
+[1.923s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:26[m[K,
+[1.923s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22[m[K:
+[1.923s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.923s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[1.923s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[1.923s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+[1.923s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30[m[K,
+[1.923s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/GeometricCamera.h:39[m[K,
+[1.923s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:30[m[K,
+[1.923s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:30[m[K,
+[1.923s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22[m[K:
+[1.923s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[1.923s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[1.923s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[1.923s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:161[m[K,
+[1.923s]                  from [01m[K/usr/local/include/pangolin/gl/opengl_render_state.h:40[m[K,
+[1.923s]                  from [01m[K/usr/local/include/pangolin/handler/handler.h:30[m[K,
+[1.923s]                  from [01m[K/usr/local/include/pangolin/display/widgets.h:32[m[K,
+[1.923s]                  from [01m[K/usr/local/include/pangolin/pangolin.h:40[m[K,
+[1.923s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:26[m[K,
+[1.923s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22[m[K:
+[1.923s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.923s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[1.923s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[1.942s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+[1.942s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30[m[K,
+[1.942s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/GeometricCamera.h:39[m[K,
+[1.942s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:30[m[K,
+[1.942s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:30[m[K,
+[1.942s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22[m[K:
+[1.942s] /home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[1.942s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:114:35:[m[K   required from here
+[1.943s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[1.943s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[1.943s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[1.943s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:161[m[K,
+[1.943s]                  from [01m[K/usr/local/include/pangolin/gl/opengl_render_state.h:40[m[K,
+[1.943s]                  from [01m[K/usr/local/include/pangolin/handler/handler.h:30[m[K,
+[1.943s]                  from [01m[K/usr/local/include/pangolin/display/widgets.h:32[m[K,
+[1.943s]                  from [01m[K/usr/local/include/pangolin/pangolin.h:40[m[K,
+[1.943s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:26[m[K,
+[1.943s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22[m[K:
+[1.943s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.943s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[1.943s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[1.947s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+[1.947s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30[m[K,
+[1.947s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/GeometricCamera.h:39[m[K,
+[1.947s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:30[m[K,
+[1.947s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:30[m[K,
+[1.947s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22[m[K:
+[1.947s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[1.947s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[1.947s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[1.947s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:161[m[K,
+[1.947s]                  from [01m[K/usr/local/include/pangolin/gl/opengl_render_state.h:40[m[K,
+[1.947s]                  from [01m[K/usr/local/include/pangolin/handler/handler.h:30[m[K,
+[1.947s]                  from [01m[K/usr/local/include/pangolin/display/widgets.h:32[m[K,
+[1.947s]                  from [01m[K/usr/local/include/pangolin/pangolin.h:40[m[K,
+[1.947s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:26[m[K,
+[1.947s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22[m[K:
+[1.947s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.948s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[1.948s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[1.984s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+[1.984s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30[m[K,
+[1.984s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/GeometricCamera.h:39[m[K,
+[1.984s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:30[m[K,
+[1.984s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:30[m[K,
+[1.984s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22[m[K:
+[1.984s] /home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<3, Eigen::Matrix<double, 3, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[1.984s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:146:41:[m[K   required from here
+[1.984s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[1.984s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[1.984s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[1.984s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:161[m[K,
+[1.984s]                  from [01m[K/usr/local/include/pangolin/gl/opengl_render_state.h:40[m[K,
+[1.984s]                  from [01m[K/usr/local/include/pangolin/handler/handler.h:30[m[K,
+[1.984s]                  from [01m[K/usr/local/include/pangolin/display/widgets.h:32[m[K,
+[1.984s]                  from [01m[K/usr/local/include/pangolin/pangolin.h:40[m[K,
+[1.984s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:26[m[K,
+[1.984s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22[m[K:
+[1.984s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.984s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[1.985s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[1.985s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+[1.985s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30[m[K,
+[1.985s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/GeometricCamera.h:39[m[K,
+[1.985s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:30[m[K,
+[1.985s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:30[m[K,
+[1.985s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22[m[K:
+[1.985s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[1.985s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[1.985s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[1.985s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:161[m[K,
+[1.985s]                  from [01m[K/usr/local/include/pangolin/gl/opengl_render_state.h:40[m[K,
+[1.985s]                  from [01m[K/usr/local/include/pangolin/handler/handler.h:30[m[K,
+[1.985s]                  from [01m[K/usr/local/include/pangolin/display/widgets.h:32[m[K,
+[1.985s]                  from [01m[K/usr/local/include/pangolin/pangolin.h:40[m[K,
+[1.985s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:26[m[K,
+[1.985s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22[m[K:
+[1.985s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.985s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[1.985s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[2.065s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:34[m[K,
+[2.065s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30[m[K,
+[2.065s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/GeometricCamera.h:39[m[K,
+[2.065s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:30[m[K,
+[2.065s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:30[m[K,
+[2.065s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22[m[K:
+[2.065s] /home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<7, g2o::Sim3>[m[K’:
+[2.065s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:48:35:[m[K   required from here
+[2.065s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.065s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[2.066s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[2.066s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:161[m[K,
+[2.066s]                  from [01m[K/usr/local/include/pangolin/gl/opengl_render_state.h:40[m[K,
+[2.066s]                  from [01m[K/usr/local/include/pangolin/handler/handler.h:30[m[K,
+[2.066s]                  from [01m[K/usr/local/include/pangolin/display/widgets.h:32[m[K,
+[2.066s]                  from [01m[K/usr/local/include/pangolin/pangolin.h:40[m[K,
+[2.066s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:26[m[K,
+[2.066s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22[m[K:
+[2.066s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.066s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[2.066s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[2.080s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+[2.080s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30[m[K,
+[2.080s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/GeometricCamera.h:39[m[K,
+[2.080s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:30[m[K,
+[2.080s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:30[m[K,
+[2.080s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22[m[K:
+[2.080s] /home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<7, g2o::Sim3, g2o::VertexSim3Expmap, g2o::VertexSim3Expmap>[m[K’:
+[2.080s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:99:27:[m[K   required from here
+[2.080s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.080s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[2.080s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[2.080s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:161[m[K,
+[2.080s]                  from [01m[K/usr/local/include/pangolin/gl/opengl_render_state.h:40[m[K,
+[2.080s]                  from [01m[K/usr/local/include/pangolin/handler/handler.h:30[m[K,
+[2.080s]                  from [01m[K/usr/local/include/pangolin/display/widgets.h:32[m[K,
+[2.080s]                  from [01m[K/usr/local/include/pangolin/pangolin.h:40[m[K,
+[2.080s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:26[m[K,
+[2.080s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22[m[K:
+[2.080s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.080s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[2.080s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[2.080s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+[2.080s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30[m[K,
+[2.080s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/GeometricCamera.h:39[m[K,
+[2.080s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:30[m[K,
+[2.080s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:30[m[K,
+[2.080s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22[m[K:
+[2.080s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.080s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[2.080s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[2.080s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:161[m[K,
+[2.080s]                  from [01m[K/usr/local/include/pangolin/gl/opengl_render_state.h:40[m[K,
+[2.080s]                  from [01m[K/usr/local/include/pangolin/handler/handler.h:30[m[K,
+[2.080s]                  from [01m[K/usr/local/include/pangolin/display/widgets.h:32[m[K,
+[2.080s]                  from [01m[K/usr/local/include/pangolin/pangolin.h:40[m[K,
+[2.080s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:26[m[K,
+[2.080s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22[m[K:
+[2.080s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.080s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[2.080s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[2.097s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+[2.097s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30[m[K,
+[2.097s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/GeometricCamera.h:39[m[K,
+[2.097s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:30[m[K,
+[2.097s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:30[m[K,
+[2.097s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22[m[K:
+[2.097s] /home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSim3Expmap>[m[K’:
+[2.097s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:130:36:[m[K   required from here
+[2.097s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.097s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[2.097s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[2.097s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:161[m[K,
+[2.097s]                  from [01m[K/usr/local/include/pangolin/gl/opengl_render_state.h:40[m[K,
+[2.097s]                  from [01m[K/usr/local/include/pangolin/handler/handler.h:30[m[K,
+[2.097s]                  from [01m[K/usr/local/include/pangolin/display/widgets.h:32[m[K,
+[2.097s]                  from [01m[K/usr/local/include/pangolin/pangolin.h:40[m[K,
+[2.097s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:26[m[K,
+[2.097s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22[m[K:
+[2.097s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.097s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[2.097s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[2.102s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+[2.102s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30[m[K,
+[2.102s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/GeometricCamera.h:39[m[K,
+[2.102s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:30[m[K,
+[2.102s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:30[m[K,
+[2.102s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22[m[K:
+[2.102s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.102s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[2.102s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[2.102s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:161[m[K,
+[2.103s]                  from [01m[K/usr/local/include/pangolin/gl/opengl_render_state.h:40[m[K,
+[2.103s]                  from [01m[K/usr/local/include/pangolin/handler/handler.h:30[m[K,
+[2.103s]                  from [01m[K/usr/local/include/pangolin/display/widgets.h:32[m[K,
+[2.103s]                  from [01m[K/usr/local/include/pangolin/pangolin.h:40[m[K,
+[2.103s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:26[m[K,
+[2.103s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22[m[K:
+[2.103s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.103s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[2.103s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[2.295s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:31[m[K,
+[2.296s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:30[m[K,
+[2.296s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22[m[K:
+[2.296s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>)[m[K’:
+[2.296s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.296s]   102 |         const float [01;35m[Kprecision[m[K;
+[2.296s]       |                     [01;35m[K^~~~~~~~~[m[K
+[2.296s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.296s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[2.296s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[2.296s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:31[m[K,
+[2.296s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:30[m[K,
+[2.296s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22[m[K:
+[2.296s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:47:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.296s]    47 |         [01;35m[KKannalaBrandt8[m[K(const std::vector<float> _vParameters) : GeometricCamera(_vParameters), precision(1e-6), mvLappingArea(2,0) ,tvr(nullptr) {
+[2.296s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[2.296s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:31[m[K,
+[2.296s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:30[m[K,
+[2.296s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22[m[K:
+[2.296s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>, float)[m[K’:
+[2.296s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.296s]   102 |         const float [01;35m[Kprecision[m[K;
+[2.296s]       |                     [01;35m[K^~~~~~~~~[m[K
+[2.296s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.296s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[2.296s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[2.296s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:53:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.296s]    53 |         [01;35m[KKannalaBrandt8[m[K(const std::vector<float> _vParameters, const float _precision) : GeometricCamera(_vParameters),
+[2.296s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[2.296s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(ORB_SLAM3::KannalaBrandt8*)[m[K’:
+[2.296s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.296s]   102 |         const float [01;35m[Kprecision[m[K;
+[2.296s]       |                     [01;35m[K^~~~~~~~~[m[K
+[2.296s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.296s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[2.296s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[2.296s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:59:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.296s]    59 |         [01;35m[KKannalaBrandt8[m[K(KannalaBrandt8* pKannala) : GeometricCamera(pKannala->mvParameters), precision(pKannala->precision), mvLappingArea(2,0) ,tvr(nullptr) {
+[2.296s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[2.787s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Frame.h:41[m[K,
+[2.787s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/KeyFrame.h:33[m[K,
+[2.787s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:32[m[K,
+[2.787s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:30[m[K,
+[2.787s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22[m[K:
+[2.787s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/ImuTypes.h:[m[K In member function ‘[01m[Kvoid ORB_SLAM3::IMU::Preintegrated::printMeasurements() const[m[K’:
+[2.787s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/ImuTypes.h:213:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<ORB_SLAM3::IMU::Preintegrated::integrable>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.787s]   213 |     for (int i = 0; [01;35m[Ki < mvMeasurements.size()[m[K; i++) {
+[2.787s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.965s] [01m[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:[m[K In member function ‘[01m[Kvoid ORB_SLAM3::MapDrawer::DrawKeyFrames(bool, bool, bool, bool)[m[K’:
+[2.965s] [01m[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:192:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kindex_color[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.965s]   192 |       unsigned int [01;35m[Kindex_color[m[K = pKF->mnOriginMapId;
+[2.965s]       |                    [01;35m[K^~~~~~~~~~~[m[K
+[6.379s] [  7%] [32m[1mLinking CXX shared library /home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/lib/liborbslam3.so[0m
+[7.123s] [ 92%] Built target orbslam3
+[7.134s] [35m[1mConsolidate compiler generated dependencies of target rgbd_inertial_ros2[0m
+[7.154s] [ 95%] [32mBuilding CXX object CMakeFiles/rgbd_inertial_ros2.dir/src/rgbd_inertial_ros2.cc.o[0m
+[7.524s] [ 97%] [32m[1mLinking CXX executable /home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/pointcloud_to_gridmap_node[0m
+[7.853s] [ 97%] Built target pointcloud_to_gridmap_node
+[10.137s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:34[m[K,
+[10.137s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30[m[K,
+[10.137s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapPoint.h:31[m[K,
+[10.137s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:28[m[K:
+[10.137s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:74:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.137s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[10.137s]       |                                                                          [01;35m[K^~~~~~~~~~[m[K
+[10.137s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:161[m[K,
+[10.137s]                  from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+[10.137s]                  from [01m[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3[m[K,
+[10.137s]                  from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:46[m[K,
+[10.137s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:47[m[K,
+[10.137s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:24[m[K:
+[10.137s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.137s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[10.137s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[10.146s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+[10.147s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30[m[K,
+[10.147s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapPoint.h:31[m[K,
+[10.147s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:28[m[K:
+[10.147s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.147s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[10.147s]       |                                                                                  [01;35m[K^~~~~~~~~~[m[K
+[10.147s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:161[m[K,
+[10.147s]                  from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+[10.147s]                  from [01m[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3[m[K,
+[10.147s]                  from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:46[m[K,
+[10.147s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:47[m[K,
+[10.147s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:24[m[K:
+[10.147s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.147s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[10.147s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[10.147s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+[10.147s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30[m[K,
+[10.147s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapPoint.h:31[m[K,
+[10.147s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:28[m[K:
+[10.147s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.147s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[10.148s]       |                                                                                  [01;35m[K^~~~~~~~~~[m[K
+[10.148s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:161[m[K,
+[10.148s]                  from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+[10.148s]                  from [01m[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3[m[K,
+[10.148s]                  from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:46[m[K,
+[10.148s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:47[m[K,
+[10.148s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:24[m[K:
+[10.148s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.148s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[10.148s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[10.324s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:34[m[K,
+[10.324s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30[m[K,
+[10.324s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapPoint.h:31[m[K,
+[10.324s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:28[m[K:
+[10.324s] /home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<3, Eigen::Matrix<double, 3, 1> >[m[K’:
+[10.324s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_sba.h:40:35:[m[K   required from here
+[10.324s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.324s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[10.324s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[10.324s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:161[m[K,
+[10.324s]                  from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+[10.325s]                  from [01m[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3[m[K,
+[10.325s]                  from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:46[m[K,
+[10.325s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:47[m[K,
+[10.325s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:24[m[K:
+[10.325s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.325s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[10.325s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[10.336s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:34[m[K,
+[10.336s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30[m[K,
+[10.336s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapPoint.h:31[m[K,
+[10.336s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:28[m[K:
+[10.336s] /home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<6, g2o::SE3Quat>[m[K’:
+[10.336s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:59:33:[m[K   required from here
+[10.336s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.336s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[10.337s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[10.337s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:161[m[K,
+[10.337s]                  from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+[10.337s]                  from [01m[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3[m[K,
+[10.337s]                  from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:46[m[K,
+[10.337s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:47[m[K,
+[10.337s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:24[m[K:
+[10.337s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.337s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[10.337s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[10.349s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+[10.349s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30[m[K,
+[10.349s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapPoint.h:31[m[K,
+[10.349s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:28[m[K:
+[10.349s] /home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<6, g2o::SE3Quat, g2o::VertexSE3Expmap, g2o::VertexSE3Expmap>[m[K’:
+[10.349s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:83:24:[m[K   required from here
+[10.349s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.349s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[10.349s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[10.349s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:161[m[K,
+[10.349s]                  from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+[10.349s]                  from [01m[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3[m[K,
+[10.349s]                  from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:46[m[K,
+[10.349s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:47[m[K,
+[10.349s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:24[m[K:
+[10.349s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.349s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[10.349s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[10.349s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+[10.349s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30[m[K,
+[10.349s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapPoint.h:31[m[K,
+[10.350s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:28[m[K:
+[10.350s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.350s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[10.350s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[10.350s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:161[m[K,
+[10.350s]                  from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+[10.350s]                  from [01m[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3[m[K,
+[10.350s]                  from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:46[m[K,
+[10.350s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:47[m[K,
+[10.350s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:24[m[K:
+[10.350s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.350s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[10.350s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[10.376s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+[10.376s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30[m[K,
+[10.376s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapPoint.h:31[m[K,
+[10.376s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:28[m[K:
+[10.376s] /home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[10.376s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:114:35:[m[K   required from here
+[10.376s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.376s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[10.377s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[10.377s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:161[m[K,
+[10.377s]                  from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+[10.377s]                  from [01m[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3[m[K,
+[10.377s]                  from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:46[m[K,
+[10.377s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:47[m[K,
+[10.377s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:24[m[K:
+[10.377s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.377s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[10.377s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[10.381s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+[10.381s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30[m[K,
+[10.381s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapPoint.h:31[m[K,
+[10.381s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:28[m[K:
+[10.382s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.382s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[10.382s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[10.382s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:161[m[K,
+[10.382s]                  from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+[10.382s]                  from [01m[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3[m[K,
+[10.382s]                  from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:46[m[K,
+[10.382s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:47[m[K,
+[10.382s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:24[m[K:
+[10.382s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.382s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[10.382s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[10.406s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+[10.406s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30[m[K,
+[10.406s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapPoint.h:31[m[K,
+[10.406s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:28[m[K:
+[10.406s] /home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<3, Eigen::Matrix<double, 3, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[10.406s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:146:41:[m[K   required from here
+[10.406s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.406s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[10.406s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[10.406s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:161[m[K,
+[10.406s]                  from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+[10.406s]                  from [01m[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3[m[K,
+[10.406s]                  from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:46[m[K,
+[10.406s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:47[m[K,
+[10.406s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:24[m[K:
+[10.406s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.406s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[10.406s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[10.406s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+[10.406s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30[m[K,
+[10.407s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapPoint.h:31[m[K,
+[10.407s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:28[m[K:
+[10.407s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.407s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[10.407s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[10.407s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:161[m[K,
+[10.407s]                  from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+[10.407s]                  from [01m[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3[m[K,
+[10.407s]                  from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:46[m[K,
+[10.407s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:47[m[K,
+[10.407s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:24[m[K:
+[10.407s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.407s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[10.407s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[10.489s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:34[m[K,
+[10.489s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30[m[K,
+[10.489s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapPoint.h:31[m[K,
+[10.489s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:28[m[K:
+[10.489s] /home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<7, g2o::Sim3>[m[K’:
+[10.489s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:48:35:[m[K   required from here
+[10.489s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.489s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[10.489s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[10.489s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:161[m[K,
+[10.489s]                  from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+[10.489s]                  from [01m[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3[m[K,
+[10.489s]                  from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:46[m[K,
+[10.489s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:47[m[K,
+[10.490s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:24[m[K:
+[10.490s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.490s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[10.490s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[10.503s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+[10.503s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30[m[K,
+[10.503s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapPoint.h:31[m[K,
+[10.503s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:28[m[K:
+[10.503s] /home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<7, g2o::Sim3, g2o::VertexSim3Expmap, g2o::VertexSim3Expmap>[m[K’:
+[10.503s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:99:27:[m[K   required from here
+[10.503s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.503s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[10.503s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[10.503s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:161[m[K,
+[10.503s]                  from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+[10.503s]                  from [01m[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3[m[K,
+[10.503s]                  from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:46[m[K,
+[10.503s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:47[m[K,
+[10.503s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:24[m[K:
+[10.503s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.504s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[10.504s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[10.504s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+[10.504s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30[m[K,
+[10.504s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapPoint.h:31[m[K,
+[10.504s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:28[m[K:
+[10.504s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.504s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[10.504s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[10.504s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:161[m[K,
+[10.504s]                  from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+[10.504s]                  from [01m[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3[m[K,
+[10.504s]                  from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:46[m[K,
+[10.504s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:47[m[K,
+[10.504s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:24[m[K:
+[10.504s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.504s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[10.504s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[10.521s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+[10.521s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30[m[K,
+[10.521s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapPoint.h:31[m[K,
+[10.521s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:28[m[K:
+[10.521s] /home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSim3Expmap>[m[K’:
+[10.521s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:130:36:[m[K   required from here
+[10.521s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.521s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[10.521s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[10.521s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:161[m[K,
+[10.521s]                  from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+[10.521s]                  from [01m[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3[m[K,
+[10.521s]                  from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:46[m[K,
+[10.521s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:47[m[K,
+[10.521s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:24[m[K:
+[10.521s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.521s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[10.521s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[10.526s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+[10.527s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30[m[K,
+[10.527s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapPoint.h:31[m[K,
+[10.527s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:28[m[K:
+[10.527s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.527s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[10.527s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[10.527s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:161[m[K,
+[10.527s]                  from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+[10.527s]                  from [01m[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3[m[K,
+[10.527s]                  from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:46[m[K,
+[10.527s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:47[m[K,
+[10.527s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:24[m[K:
+[10.527s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.527s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[10.527s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[10.956s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Frame.h:41[m[K,
+[10.956s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapPoint.h:32[m[K,
+[10.956s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:28[m[K:
+[10.956s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/ImuTypes.h:[m[K In member function ‘[01m[Kvoid ORB_SLAM3::IMU::Preintegrated::printMeasurements() const[m[K’:
+[10.956s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/ImuTypes.h:213:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<ORB_SLAM3::IMU::Preintegrated::integrable>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[10.956s]   213 |     for (int i = 0; [01;35m[Ki < mvMeasurements.size()[m[K; i++) {
+[10.956s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.396s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:31[m[K,
+[11.396s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/System.h:34[m[K,
+[11.396s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:31[m[K:
+[11.396s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>)[m[K’:
+[11.396s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[11.396s]   102 |         const float [01;35m[Kprecision[m[K;
+[11.396s]       |                     [01;35m[K^~~~~~~~~[m[K
+[11.396s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[11.396s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[11.396s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[11.396s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:31[m[K,
+[11.396s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/System.h:34[m[K,
+[11.396s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:31[m[K:
+[11.396s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:47:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[11.396s]    47 |         [01;35m[KKannalaBrandt8[m[K(const std::vector<float> _vParameters) : GeometricCamera(_vParameters), precision(1e-6), mvLappingArea(2,0) ,tvr(nullptr) {
+[11.396s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[11.396s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:31[m[K,
+[11.396s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/System.h:34[m[K,
+[11.396s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:31[m[K:
+[11.396s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>, float)[m[K’:
+[11.396s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[11.396s]   102 |         const float [01;35m[Kprecision[m[K;
+[11.396s]       |                     [01;35m[K^~~~~~~~~[m[K
+[11.396s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[11.396s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[11.396s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[11.396s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:53:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[11.396s]    53 |         [01;35m[KKannalaBrandt8[m[K(const std::vector<float> _vParameters, const float _precision) : GeometricCamera(_vParameters),
+[11.396s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[11.396s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(ORB_SLAM3::KannalaBrandt8*)[m[K’:
+[11.396s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[11.396s]   102 |         const float [01;35m[Kprecision[m[K;
+[11.396s]       |                     [01;35m[K^~~~~~~~~[m[K
+[11.396s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[11.396s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[11.396s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[11.396s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:59:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[11.396s]    59 |         [01;35m[KKannalaBrandt8[m[K(KannalaBrandt8* pKannala) : GeometricCamera(pKannala->mvParameters), precision(pKannala->precision), mvLappingArea(2,0) ,tvr(nullptr) {
+[11.396s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[18.175s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/RegistrationGICP.h:12[m[K,
+[18.175s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Tracking.h:47[m[K,
+[18.175s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/FrameDrawer.h:32[m[K,
+[18.175s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/System.h:35[m[K,
+[18.175s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:31[m[K:
+[18.175s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/small_gicp/include/small_gicp/benchmark/read_points.hpp:[m[K At global scope:
+[18.175s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/small_gicp/include/small_gicp/benchmark/read_points.hpp:52:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::vector<Eigen::Matrix<float, 4, 1> > small_gicp::read_ply(const string&)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[18.175s]    52 | static std::vector<Eigen::Vector4f> [01;35m[Kread_ply[m[K(const std::string& filename) {
+[18.175s]       |                                     [01;35m[K^~~~~~~~[m[K
+[18.175s] In file included from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/RegistrationGICP.h:12[m[K,
+[18.175s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Tracking.h:47[m[K,
+[18.175s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/FrameDrawer.h:32[m[K,
+[18.175s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/System.h:35[m[K,
+[18.175s]                  from [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:31[m[K:
+[18.175s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/small_gicp/include/small_gicp/benchmark/read_points.hpp:38:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid small_gicp::write_points(const string&, const std::vector<Eigen::Matrix<float, 4, 1> >&)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[18.175s]    38 | static void [01;35m[Kwrite_points[m[K(const std::string& filename, const std::vector<Eigen::Vector4f>& points) {
+[18.175s]       |             [01;35m[K^~~~~~~~~~~~[m[K
+[18.175s] [01m[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/small_gicp/include/small_gicp/benchmark/read_points.hpp:15:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::vector<Eigen::Matrix<float, 4, 1> > small_gicp::read_points(const string&)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[18.175s]    15 | static std::vector<Eigen::Vector4f> [01;35m[Kread_points[m[K(const std::string& filename) {
+[18.175s]       |                                     [01;35m[K^~~~~~~~~~~[m[K
+[23.906s] [100%] [32m[1mLinking CXX executable /home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/rgbd_inertial_ros2[0m
+[24.198s] /usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.4.4
+[24.198s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.4.4
+[24.499s] [100%] Built target rgbd_inertial_ros2
+[24.506s] Invoked command in '/home/zju/navigation/GeoFlowSlam/build/orbslam3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zju/navigation/GeoFlowSlam/build/orbslam3 -- -j20 -l20
+[24.513s] Invoking command in '/home/zju/navigation/GeoFlowSlam/build/orbslam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zju/navigation/GeoFlowSlam/build/orbslam3
+[24.519s] -- Install configuration: "Release"
+[24.519s] -- Installing: /home/zju/navigation/GeoFlowSlam/install/lib/libDBoW2.so
+[24.520s] -- Installing: /home/zju/navigation/GeoFlowSlam/install/lib/libg2o.so
+[24.521s] -- Installing: /home/zju/navigation/GeoFlowSlam/install/lib/libsmall_gicp.so
+[24.521s] -- Installing: /home/zju/navigation/GeoFlowSlam/install/lib/liborbslam3.so
+[24.531s] -- Set runtime path of "/home/zju/navigation/GeoFlowSlam/install/lib/liborbslam3.so" to ""
+[24.531s] -- Installing: /home/zju/navigation/GeoFlowSlam/install/lib/orbslam3/rgbd_inertial_ros2
+[24.532s] -- Set runtime path of "/home/zju/navigation/GeoFlowSlam/install/lib/orbslam3/rgbd_inertial_ros2" to ""
+[24.532s] -- Installing: /home/zju/navigation/GeoFlowSlam/install/lib/orbslam3/pointcloud_to_gridmap_node
+[24.532s] -- Set runtime path of "/home/zju/navigation/GeoFlowSlam/install/lib/orbslam3/pointcloud_to_gridmap_node" to ""
+[24.532s] -- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/lib/orbslam3/rgbd_inertial_ros2
+[24.532s] -- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/lib/orbslam3/pointcloud_to_gridmap_node
+[24.532s] -- Installing: /home/zju/navigation/GeoFlowSlam/install/share/ament_index/resource_index/package_run_dependencies/orbslam3
+[24.533s] -- Installing: /home/zju/navigation/GeoFlowSlam/install/share/ament_index/resource_index/parent_prefix_path/orbslam3
+[24.533s] -- Installing: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/environment/ament_prefix_path.sh
+[24.533s] -- Installing: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/environment/ament_prefix_path.dsv
+[24.533s] -- Installing: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/environment/path.sh
+[24.533s] -- Installing: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/environment/path.dsv
+[24.533s] -- Installing: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/local_setup.bash
+[24.533s] -- Installing: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/local_setup.sh
+[24.533s] -- Installing: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/local_setup.zsh
+[24.533s] -- Installing: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/local_setup.dsv
+[24.533s] -- Installing: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/package.dsv
+[24.533s] -- Installing: /home/zju/navigation/GeoFlowSlam/install/share/ament_index/resource_index/packages/orbslam3
+[24.533s] -- Installing: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.533s] -- Installing: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/cmake/orbslam3Config.cmake
+[24.533s] -- Installing: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/cmake/orbslam3Config-version.cmake
+[24.533s] -- Installing: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/package.xml
+[24.534s] Invoked command in '/home/zju/navigation/GeoFlowSlam/build/orbslam3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zju/navigation/GeoFlowSlam/build/orbslam3

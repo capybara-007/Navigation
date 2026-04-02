@@ -1,0 +1,1008 @@
+[0.000000] (-) TimerEvent: {}
+[0.000124] (orbslam3) JobQueued: {'identifier': 'orbslam3', 'dependencies': OrderedDict()}
+[0.000142] (orbslam3) JobStarted: {'identifier': 'orbslam3'}
+[0.003999] (orbslam3) JobProgress: {'identifier': 'orbslam3', 'progress': 'cmake'}
+[0.004659] (orbslam3) JobProgress: {'identifier': 'orbslam3', 'progress': 'build'}
+[0.005254] (orbslam3) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zju/navigation/GeoFlowSlam/build/orbslam3', '--', '-j20', '-l20'], 'cwd': '/home/zju/navigation/GeoFlowSlam/build/orbslam3', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'zju'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/lib:/home/zju/navigation/GeoFlowSlam/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zju'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1758'), ('SYSTEMD_EXEC_PID', '2012'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('COLCON_PREFIX_PATH', '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install:/home/zju/navigation/GeoFlowSlam/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'zju'), ('JOURNAL_STREAM', '8:6674'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zju'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/zju/.npm-global/bin:/home/zju/.local/bin:/home/zju/anaconda3/condabin:/home/zju/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zju-System-Product-Name:@/tmp/.ICE-unix/1985,unix/zju-System-Product-Name:/tmp/.ICE-unix/1985'), ('INVOCATION_ID', '1efae5faa8304702bd5f619450579d5d'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install:/home/zju/navigation/GeoFlowSlam/install:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/zju/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:cea7f058-f8b8-4ebc-ae66-c2e7bf0b4194'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zju/navigation/GeoFlowSlam/build/orbslam3'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/zju/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install:/home/zju/navigation/GeoFlowSlam/install:/opt/ros/humble')]), 'shell': False}
+[0.047439] (orbslam3) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/pointcloud_to_gridmap_node.dir/src/pointcloud_to_gridmap.cpp.o\x1b[0m\n'}
+[0.061068] (orbslam3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target orbslam3\x1b[0m\n'}
+[0.099587] (-) TimerEvent: {}
+[0.146365] (orbslam3) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/orbslam3.dir/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc.o\x1b[0m\n'}
+[0.199660] (-) TimerEvent: {}
+[0.299855] (-) TimerEvent: {}
+[0.400153] (-) TimerEvent: {}
+[0.500358] (-) TimerEvent: {}
+[0.600572] (-) TimerEvent: {}
+[0.700783] (-) TimerEvent: {}
+[0.800992] (-) TimerEvent: {}
+[0.901205] (-) TimerEvent: {}
+[1.001420] (-) TimerEvent: {}
+[1.101628] (-) TimerEvent: {}
+[1.201842] (-) TimerEvent: {}
+[1.302076] (-) TimerEvent: {}
+[1.402292] (-) TimerEvent: {}
+[1.502505] (-) TimerEvent: {}
+[1.602715] (-) TimerEvent: {}
+[1.663296] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:34\x1b[m\x1b[K,\n'}
+[1.663445] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30\x1b[m\x1b[K,\n'}
+[1.663473] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/GeometricCamera.h:39\x1b[m\x1b[K,\n'}
+[1.663495] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:30\x1b[m\x1b[K,\n'}
+[1.663514] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:30\x1b[m\x1b[K,\n'}
+[1.663533] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22\x1b[m\x1b[K:\n'}
+[1.663552] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.663574] (orbslam3) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[1.663595] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.663614] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[1.663631] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/gl/opengl_render_state.h:40\x1b[m\x1b[K,\n'}
+[1.663650] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/handler/handler.h:30\x1b[m\x1b[K,\n'}
+[1.663668] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/display/widgets.h:32\x1b[m\x1b[K,\n'}
+[1.663685] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/pangolin.h:40\x1b[m\x1b[K,\n'}
+[1.663703] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:26\x1b[m\x1b[K,\n'}
+[1.663721] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22\x1b[m\x1b[K:\n'}
+[1.663739] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.663757] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[1.663775] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.667175] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35\x1b[m\x1b[K,\n'}
+[1.667205] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30\x1b[m\x1b[K,\n'}
+[1.667225] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/GeometricCamera.h:39\x1b[m\x1b[K,\n'}
+[1.667246] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:30\x1b[m\x1b[K,\n'}
+[1.667291] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:30\x1b[m\x1b[K,\n'}
+[1.667312] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22\x1b[m\x1b[K:\n'}
+[1.667332] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:82:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.667402] (orbslam3) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[1.667422] (orbslam3) StderrLine: {'line': b'      |                                                                                  \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.667440] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[1.667460] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/gl/opengl_render_state.h:40\x1b[m\x1b[K,\n'}
+[1.667480] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/handler/handler.h:30\x1b[m\x1b[K,\n'}
+[1.667497] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/display/widgets.h:32\x1b[m\x1b[K,\n'}
+[1.667516] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/pangolin.h:40\x1b[m\x1b[K,\n'}
+[1.667534] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:26\x1b[m\x1b[K,\n'}
+[1.667552] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22\x1b[m\x1b[K:\n'}
+[1.667570] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.667589] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[1.667608] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.667626] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35\x1b[m\x1b[K,\n'}
+[1.667645] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30\x1b[m\x1b[K,\n'}
+[1.667664] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/GeometricCamera.h:39\x1b[m\x1b[K,\n'}
+[1.667682] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:30\x1b[m\x1b[K,\n'}
+[1.667699] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:30\x1b[m\x1b[K,\n'}
+[1.667717] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22\x1b[m\x1b[K:\n'}
+[1.667735] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:82:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.667754] (orbslam3) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[1.667772] (orbslam3) StderrLine: {'line': b'      |                                                                                  \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.667790] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[1.667808] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/gl/opengl_render_state.h:40\x1b[m\x1b[K,\n'}
+[1.667825] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/handler/handler.h:30\x1b[m\x1b[K,\n'}
+[1.667843] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/display/widgets.h:32\x1b[m\x1b[K,\n'}
+[1.667862] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/pangolin.h:40\x1b[m\x1b[K,\n'}
+[1.667880] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:26\x1b[m\x1b[K,\n'}
+[1.667900] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22\x1b[m\x1b[K:\n'}
+[1.667917] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.667935] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[1.667952] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.702801] (-) TimerEvent: {}
+[1.803014] (-) TimerEvent: {}
+[1.903227] (-) TimerEvent: {}
+[1.904428] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:34\x1b[m\x1b[K,\n'}
+[1.904527] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30\x1b[m\x1b[K,\n'}
+[1.904554] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/GeometricCamera.h:39\x1b[m\x1b[K,\n'}
+[1.904577] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:30\x1b[m\x1b[K,\n'}
+[1.904597] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:30\x1b[m\x1b[K,\n'}
+[1.904616] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22\x1b[m\x1b[K:\n'}
+[1.904635] (orbslam3) StderrLine: {'line': b'/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<3, Eigen::Matrix<double, 3, 1> >\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.904657] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_sba.h:40:35:\x1b[m\x1b[K   required from here\n'}
+[1.904677] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.904700] (orbslam3) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[1.904719] (orbslam3) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.904737] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[1.904755] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/gl/opengl_render_state.h:40\x1b[m\x1b[K,\n'}
+[1.904774] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/handler/handler.h:30\x1b[m\x1b[K,\n'}
+[1.904791] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/display/widgets.h:32\x1b[m\x1b[K,\n'}
+[1.904809] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/pangolin.h:40\x1b[m\x1b[K,\n'}
+[1.904828] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:26\x1b[m\x1b[K,\n'}
+[1.904846] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22\x1b[m\x1b[K:\n'}
+[1.904864] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.904882] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[1.904900] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.910925] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:34\x1b[m\x1b[K,\n'}
+[1.910962] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30\x1b[m\x1b[K,\n'}
+[1.910987] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/GeometricCamera.h:39\x1b[m\x1b[K,\n'}
+[1.911011] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:30\x1b[m\x1b[K,\n'}
+[1.911033] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:30\x1b[m\x1b[K,\n'}
+[1.911052] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22\x1b[m\x1b[K:\n'}
+[1.911076] (orbslam3) StderrLine: {'line': b'/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<6, g2o::SE3Quat>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.911104] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:59:33:\x1b[m\x1b[K   required from here\n'}
+[1.911187] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.911214] (orbslam3) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[1.911235] (orbslam3) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.911255] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[1.911274] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/gl/opengl_render_state.h:40\x1b[m\x1b[K,\n'}
+[1.911292] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/handler/handler.h:30\x1b[m\x1b[K,\n'}
+[1.911310] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/display/widgets.h:32\x1b[m\x1b[K,\n'}
+[1.911332] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/pangolin.h:40\x1b[m\x1b[K,\n'}
+[1.911350] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:26\x1b[m\x1b[K,\n'}
+[1.911373] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22\x1b[m\x1b[K:\n'}
+[1.911391] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.911409] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[1.911428] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.922238] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35\x1b[m\x1b[K,\n'}
+[1.922285] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30\x1b[m\x1b[K,\n'}
+[1.922308] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/GeometricCamera.h:39\x1b[m\x1b[K,\n'}
+[1.922329] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:30\x1b[m\x1b[K,\n'}
+[1.922350] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:30\x1b[m\x1b[K,\n'}
+[1.922372] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22\x1b[m\x1b[K:\n'}
+[1.922393] (orbslam3) StderrLine: {'line': b'/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<6, g2o::SE3Quat, g2o::VertexSE3Expmap, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.922415] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:83:24:\x1b[m\x1b[K   required from here\n'}
+[1.922436] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.922459] (orbslam3) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[1.922480] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.922537] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[1.922560] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/gl/opengl_render_state.h:40\x1b[m\x1b[K,\n'}
+[1.922581] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/handler/handler.h:30\x1b[m\x1b[K,\n'}
+[1.922601] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/display/widgets.h:32\x1b[m\x1b[K,\n'}
+[1.922621] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/pangolin.h:40\x1b[m\x1b[K,\n'}
+[1.922676] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:26\x1b[m\x1b[K,\n'}
+[1.922695] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22\x1b[m\x1b[K:\n'}
+[1.922714] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.922732] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[1.922750] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.922767] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35\x1b[m\x1b[K,\n'}
+[1.922786] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30\x1b[m\x1b[K,\n'}
+[1.922803] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/GeometricCamera.h:39\x1b[m\x1b[K,\n'}
+[1.922821] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:30\x1b[m\x1b[K,\n'}
+[1.922838] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:30\x1b[m\x1b[K,\n'}
+[1.922855] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22\x1b[m\x1b[K:\n'}
+[1.922873] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.922893] (orbslam3) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[1.922914] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.922935] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[1.922953] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/gl/opengl_render_state.h:40\x1b[m\x1b[K,\n'}
+[1.922970] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/handler/handler.h:30\x1b[m\x1b[K,\n'}
+[1.922987] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/display/widgets.h:32\x1b[m\x1b[K,\n'}
+[1.923004] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/pangolin.h:40\x1b[m\x1b[K,\n'}
+[1.923022] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:26\x1b[m\x1b[K,\n'}
+[1.923040] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22\x1b[m\x1b[K:\n'}
+[1.923058] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.923077] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[1.923098] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.942378] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35\x1b[m\x1b[K,\n'}
+[1.942485] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30\x1b[m\x1b[K,\n'}
+[1.942507] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/GeometricCamera.h:39\x1b[m\x1b[K,\n'}
+[1.942528] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:30\x1b[m\x1b[K,\n'}
+[1.942547] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:30\x1b[m\x1b[K,\n'}
+[1.942565] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22\x1b[m\x1b[K:\n'}
+[1.942584] (orbslam3) StderrLine: {'line': b'/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.942606] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:114:35:\x1b[m\x1b[K   required from here\n'}
+[1.942632] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.942653] (orbslam3) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[1.942672] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.942690] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[1.942708] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/gl/opengl_render_state.h:40\x1b[m\x1b[K,\n'}
+[1.942727] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/handler/handler.h:30\x1b[m\x1b[K,\n'}
+[1.942745] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/display/widgets.h:32\x1b[m\x1b[K,\n'}
+[1.942763] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/pangolin.h:40\x1b[m\x1b[K,\n'}
+[1.942780] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:26\x1b[m\x1b[K,\n'}
+[1.942798] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22\x1b[m\x1b[K:\n'}
+[1.942815] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.942834] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[1.942853] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.947232] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35\x1b[m\x1b[K,\n'}
+[1.947325] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30\x1b[m\x1b[K,\n'}
+[1.947352] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/GeometricCamera.h:39\x1b[m\x1b[K,\n'}
+[1.947372] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:30\x1b[m\x1b[K,\n'}
+[1.947392] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:30\x1b[m\x1b[K,\n'}
+[1.947410] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22\x1b[m\x1b[K:\n'}
+[1.947430] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.947455] (orbslam3) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[1.947475] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.947494] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[1.947512] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/gl/opengl_render_state.h:40\x1b[m\x1b[K,\n'}
+[1.947530] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/handler/handler.h:30\x1b[m\x1b[K,\n'}
+[1.947549] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/display/widgets.h:32\x1b[m\x1b[K,\n'}
+[1.947567] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/pangolin.h:40\x1b[m\x1b[K,\n'}
+[1.947585] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:26\x1b[m\x1b[K,\n'}
+[1.947603] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22\x1b[m\x1b[K:\n'}
+[1.947620] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.947640] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[1.947658] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.984195] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35\x1b[m\x1b[K,\n'}
+[1.984280] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30\x1b[m\x1b[K,\n'}
+[1.984303] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/GeometricCamera.h:39\x1b[m\x1b[K,\n'}
+[1.984323] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:30\x1b[m\x1b[K,\n'}
+[1.984343] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:30\x1b[m\x1b[K,\n'}
+[1.984362] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22\x1b[m\x1b[K:\n'}
+[1.984381] (orbslam3) StderrLine: {'line': b'/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<3, Eigen::Matrix<double, 3, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.984401] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:146:41:\x1b[m\x1b[K   required from here\n'}
+[1.984419] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.984440] (orbslam3) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[1.984463] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.984481] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[1.984499] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/gl/opengl_render_state.h:40\x1b[m\x1b[K,\n'}
+[1.984518] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/handler/handler.h:30\x1b[m\x1b[K,\n'}
+[1.984536] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/display/widgets.h:32\x1b[m\x1b[K,\n'}
+[1.984554] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/pangolin.h:40\x1b[m\x1b[K,\n'}
+[1.984571] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:26\x1b[m\x1b[K,\n'}
+[1.984589] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22\x1b[m\x1b[K:\n'}
+[1.984606] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.984624] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[1.984641] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.984658] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35\x1b[m\x1b[K,\n'}
+[1.984677] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30\x1b[m\x1b[K,\n'}
+[1.984695] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/GeometricCamera.h:39\x1b[m\x1b[K,\n'}
+[1.984712] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:30\x1b[m\x1b[K,\n'}
+[1.984729] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:30\x1b[m\x1b[K,\n'}
+[1.984746] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22\x1b[m\x1b[K:\n'}
+[1.984764] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.984784] (orbslam3) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[1.984802] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.984820] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[1.984837] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/gl/opengl_render_state.h:40\x1b[m\x1b[K,\n'}
+[1.984854] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/handler/handler.h:30\x1b[m\x1b[K,\n'}
+[1.984871] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/display/widgets.h:32\x1b[m\x1b[K,\n'}
+[1.984888] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/pangolin.h:40\x1b[m\x1b[K,\n'}
+[1.984904] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:26\x1b[m\x1b[K,\n'}
+[1.984921] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22\x1b[m\x1b[K:\n'}
+[1.984939] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.984956] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[1.984973] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.003304] (-) TimerEvent: {}
+[2.065331] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:34\x1b[m\x1b[K,\n'}
+[2.065452] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30\x1b[m\x1b[K,\n'}
+[2.065479] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/GeometricCamera.h:39\x1b[m\x1b[K,\n'}
+[2.065509] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:30\x1b[m\x1b[K,\n'}
+[2.065528] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:30\x1b[m\x1b[K,\n'}
+[2.065548] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22\x1b[m\x1b[K:\n'}
+[2.065567] (orbslam3) StderrLine: {'line': b'/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<7, g2o::Sim3>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.065589] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:48:35:\x1b[m\x1b[K   required from here\n'}
+[2.065607] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.065628] (orbslam3) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[2.065648] (orbslam3) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.065666] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.065684] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/gl/opengl_render_state.h:40\x1b[m\x1b[K,\n'}
+[2.065701] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/handler/handler.h:30\x1b[m\x1b[K,\n'}
+[2.065720] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/display/widgets.h:32\x1b[m\x1b[K,\n'}
+[2.065738] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/pangolin.h:40\x1b[m\x1b[K,\n'}
+[2.065755] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:26\x1b[m\x1b[K,\n'}
+[2.065773] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22\x1b[m\x1b[K:\n'}
+[2.065791] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.065809] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.065825] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.079789] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35\x1b[m\x1b[K,\n'}
+[2.079912] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30\x1b[m\x1b[K,\n'}
+[2.079937] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/GeometricCamera.h:39\x1b[m\x1b[K,\n'}
+[2.079966] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:30\x1b[m\x1b[K,\n'}
+[2.079986] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:30\x1b[m\x1b[K,\n'}
+[2.080005] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22\x1b[m\x1b[K:\n'}
+[2.080024] (orbslam3) StderrLine: {'line': b'/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<7, g2o::Sim3, g2o::VertexSim3Expmap, g2o::VertexSim3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.080045] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:99:27:\x1b[m\x1b[K   required from here\n'}
+[2.080063] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.080093] (orbslam3) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[2.080113] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.080130] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.080148] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/gl/opengl_render_state.h:40\x1b[m\x1b[K,\n'}
+[2.080166] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/handler/handler.h:30\x1b[m\x1b[K,\n'}
+[2.080185] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/display/widgets.h:32\x1b[m\x1b[K,\n'}
+[2.080202] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/pangolin.h:40\x1b[m\x1b[K,\n'}
+[2.080220] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:26\x1b[m\x1b[K,\n'}
+[2.080237] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22\x1b[m\x1b[K:\n'}
+[2.080254] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.080271] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.080289] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.080306] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35\x1b[m\x1b[K,\n'}
+[2.080323] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30\x1b[m\x1b[K,\n'}
+[2.080340] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/GeometricCamera.h:39\x1b[m\x1b[K,\n'}
+[2.080359] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:30\x1b[m\x1b[K,\n'}
+[2.080376] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:30\x1b[m\x1b[K,\n'}
+[2.080393] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22\x1b[m\x1b[K:\n'}
+[2.080411] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.080429] (orbslam3) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[2.080448] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.080465] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.080482] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/gl/opengl_render_state.h:40\x1b[m\x1b[K,\n'}
+[2.080499] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/handler/handler.h:30\x1b[m\x1b[K,\n'}
+[2.080516] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/display/widgets.h:32\x1b[m\x1b[K,\n'}
+[2.080533] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/pangolin.h:40\x1b[m\x1b[K,\n'}
+[2.080550] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:26\x1b[m\x1b[K,\n'}
+[2.080567] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22\x1b[m\x1b[K:\n'}
+[2.080584] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.080601] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.080618] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.096931] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35\x1b[m\x1b[K,\n'}
+[2.097041] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30\x1b[m\x1b[K,\n'}
+[2.097066] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/GeometricCamera.h:39\x1b[m\x1b[K,\n'}
+[2.097093] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:30\x1b[m\x1b[K,\n'}
+[2.097114] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:30\x1b[m\x1b[K,\n'}
+[2.097133] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22\x1b[m\x1b[K:\n'}
+[2.097159] (orbslam3) StderrLine: {'line': b'/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSim3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.097183] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:130:36:\x1b[m\x1b[K   required from here\n'}
+[2.097202] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.097225] (orbslam3) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[2.097243] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.097261] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.097278] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/gl/opengl_render_state.h:40\x1b[m\x1b[K,\n'}
+[2.097297] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/handler/handler.h:30\x1b[m\x1b[K,\n'}
+[2.097314] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/display/widgets.h:32\x1b[m\x1b[K,\n'}
+[2.097331] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/pangolin.h:40\x1b[m\x1b[K,\n'}
+[2.097351] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:26\x1b[m\x1b[K,\n'}
+[2.097368] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22\x1b[m\x1b[K:\n'}
+[2.097385] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.097403] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.097421] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.102385] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35\x1b[m\x1b[K,\n'}
+[2.102462] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30\x1b[m\x1b[K,\n'}
+[2.102486] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/GeometricCamera.h:39\x1b[m\x1b[K,\n'}
+[2.102507] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:30\x1b[m\x1b[K,\n'}
+[2.102526] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:30\x1b[m\x1b[K,\n'}
+[2.102550] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22\x1b[m\x1b[K:\n'}
+[2.102569] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.102591] (orbslam3) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[2.102611] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.102629] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.102646] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/gl/opengl_render_state.h:40\x1b[m\x1b[K,\n'}
+[2.102664] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/handler/handler.h:30\x1b[m\x1b[K,\n'}
+[2.102682] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/display/widgets.h:32\x1b[m\x1b[K,\n'}
+[2.102699] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pangolin/pangolin.h:40\x1b[m\x1b[K,\n'}
+[2.102716] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:26\x1b[m\x1b[K,\n'}
+[2.102734] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22\x1b[m\x1b[K:\n'}
+[2.102751] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.102769] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.102786] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.103356] (-) TimerEvent: {}
+[2.203511] (-) TimerEvent: {}
+[2.295520] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:31\x1b[m\x1b[K,\n'}
+[2.295636] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:30\x1b[m\x1b[K,\n'}
+[2.295662] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22\x1b[m\x1b[K:\n'}
+[2.295691] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.295715] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:102:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::precision\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.295741] (orbslam3) StderrLine: {'line': b'  102 |         const float \x1b[01;35m\x1b[Kprecision\x1b[m\x1b[K;\n'}
+[2.295762] (orbslam3) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.295783] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:88:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.295806] (orbslam3) StderrLine: {'line': b'   88 |         std::vector<int> \x1b[01;35m\x1b[KmvLappingArea\x1b[m\x1b[K;\n'}
+[2.295826] (orbslam3) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.295846] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:31\x1b[m\x1b[K,\n'}
+[2.295867] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:30\x1b[m\x1b[K,\n'}
+[2.295888] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22\x1b[m\x1b[K:\n'}
+[2.295908] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:47:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.295930] (orbslam3) StderrLine: {'line': b'   47 |         \x1b[01;35m\x1b[KKannalaBrandt8\x1b[m\x1b[K(const std::vector<float> _vParameters) : GeometricCamera(_vParameters), precision(1e-6), mvLappingArea(2,0) ,tvr(nullptr) {\n'}
+[2.295950] (orbslam3) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.296030] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:31\x1b[m\x1b[K,\n'}
+[2.296052] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:30\x1b[m\x1b[K,\n'}
+[2.296072] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22\x1b[m\x1b[K:\n'}
+[2.296097] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>, float)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.296118] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:102:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::precision\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.296142] (orbslam3) StderrLine: {'line': b'  102 |         const float \x1b[01;35m\x1b[Kprecision\x1b[m\x1b[K;\n'}
+[2.296163] (orbslam3) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.296183] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:88:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.296204] (orbslam3) StderrLine: {'line': b'   88 |         std::vector<int> \x1b[01;35m\x1b[KmvLappingArea\x1b[m\x1b[K;\n'}
+[2.296224] (orbslam3) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.296243] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:53:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.296266] (orbslam3) StderrLine: {'line': b'   53 |         \x1b[01;35m\x1b[KKannalaBrandt8\x1b[m\x1b[K(const std::vector<float> _vParameters, const float _precision) : GeometricCamera(_vParameters),\n'}
+[2.296286] (orbslam3) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.296341] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(ORB_SLAM3::KannalaBrandt8*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.296364] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:102:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::precision\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.296384] (orbslam3) StderrLine: {'line': b'  102 |         const float \x1b[01;35m\x1b[Kprecision\x1b[m\x1b[K;\n'}
+[2.296402] (orbslam3) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.296422] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:88:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.296442] (orbslam3) StderrLine: {'line': b'   88 |         std::vector<int> \x1b[01;35m\x1b[KmvLappingArea\x1b[m\x1b[K;\n'}
+[2.296459] (orbslam3) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.296477] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:59:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.296496] (orbslam3) StderrLine: {'line': b'   59 |         \x1b[01;35m\x1b[KKannalaBrandt8\x1b[m\x1b[K(KannalaBrandt8* pKannala) : GeometricCamera(pKannala->mvParameters), precision(pKannala->precision), mvLappingArea(2,0) ,tvr(nullptr) {\n'}
+[2.296515] (orbslam3) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.303588] (-) TimerEvent: {}
+[2.403733] (-) TimerEvent: {}
+[2.503950] (-) TimerEvent: {}
+[2.604155] (-) TimerEvent: {}
+[2.704374] (-) TimerEvent: {}
+[2.787277] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Frame.h:41\x1b[m\x1b[K,\n'}
+[2.787397] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/KeyFrame.h:33\x1b[m\x1b[K,\n'}
+[2.787423] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:32\x1b[m\x1b[K,\n'}
+[2.787453] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapDrawer.h:30\x1b[m\x1b[K,\n'}
+[2.787474] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:22\x1b[m\x1b[K:\n'}
+[2.787495] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/ImuTypes.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ORB_SLAM3::IMU::Preintegrated::printMeasurements() const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.787517] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/ImuTypes.h:213:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<ORB_SLAM3::IMU::Preintegrated::integrable>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.787541] (orbslam3) StderrLine: {'line': b'  213 |     for (int i = 0; \x1b[01;35m\x1b[Ki < mvMeasurements.size()\x1b[m\x1b[K; i++) {\n'}
+[2.787560] (orbslam3) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.804447] (-) TimerEvent: {}
+[2.904643] (-) TimerEvent: {}
+[2.965343] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ORB_SLAM3::MapDrawer::DrawKeyFrames(bool, bool, bool, bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.965510] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/src/MapDrawer.cc:192:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kindex_color\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.965563] (orbslam3) StderrLine: {'line': b'  192 |       unsigned int \x1b[01;35m\x1b[Kindex_color\x1b[m\x1b[K = pKF->mnOriginMapId;\n'}
+[2.965611] (orbslam3) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.004754] (-) TimerEvent: {}
+[3.104962] (-) TimerEvent: {}
+[3.205148] (-) TimerEvent: {}
+[3.305342] (-) TimerEvent: {}
+[3.405645] (-) TimerEvent: {}
+[3.505919] (-) TimerEvent: {}
+[3.606176] (-) TimerEvent: {}
+[3.706385] (-) TimerEvent: {}
+[3.806653] (-) TimerEvent: {}
+[3.906934] (-) TimerEvent: {}
+[4.007223] (-) TimerEvent: {}
+[4.107496] (-) TimerEvent: {}
+[4.207765] (-) TimerEvent: {}
+[4.308041] (-) TimerEvent: {}
+[4.408324] (-) TimerEvent: {}
+[4.508598] (-) TimerEvent: {}
+[4.608870] (-) TimerEvent: {}
+[4.709147] (-) TimerEvent: {}
+[4.809423] (-) TimerEvent: {}
+[4.909664] (-) TimerEvent: {}
+[5.009818] (-) TimerEvent: {}
+[5.109995] (-) TimerEvent: {}
+[5.210166] (-) TimerEvent: {}
+[5.310324] (-) TimerEvent: {}
+[5.410512] (-) TimerEvent: {}
+[5.510693] (-) TimerEvent: {}
+[5.610852] (-) TimerEvent: {}
+[5.711013] (-) TimerEvent: {}
+[5.811169] (-) TimerEvent: {}
+[5.911323] (-) TimerEvent: {}
+[6.011493] (-) TimerEvent: {}
+[6.111666] (-) TimerEvent: {}
+[6.211812] (-) TimerEvent: {}
+[6.311958] (-) TimerEvent: {}
+[6.378610] (orbslam3) StdoutLine: {'line': b'[  7%] \x1b[32m\x1b[1mLinking CXX shared library /home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/lib/liborbslam3.so\x1b[0m\n'}
+[6.412076] (-) TimerEvent: {}
+[6.512343] (-) TimerEvent: {}
+[6.612611] (-) TimerEvent: {}
+[6.712874] (-) TimerEvent: {}
+[6.813145] (-) TimerEvent: {}
+[6.913416] (-) TimerEvent: {}
+[7.013695] (-) TimerEvent: {}
+[7.113970] (-) TimerEvent: {}
+[7.122818] (orbslam3) StdoutLine: {'line': b'[ 92%] Built target orbslam3\n'}
+[7.134496] (orbslam3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rgbd_inertial_ros2\x1b[0m\n'}
+[7.154006] (orbslam3) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/rgbd_inertial_ros2.dir/src/rgbd_inertial_ros2.cc.o\x1b[0m\n'}
+[7.214071] (-) TimerEvent: {}
+[7.314341] (-) TimerEvent: {}
+[7.414613] (-) TimerEvent: {}
+[7.514885] (-) TimerEvent: {}
+[7.523998] (orbslam3) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable /home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/pointcloud_to_gridmap_node\x1b[0m\n'}
+[7.614986] (-) TimerEvent: {}
+[7.715279] (-) TimerEvent: {}
+[7.815556] (-) TimerEvent: {}
+[7.853236] (orbslam3) StdoutLine: {'line': b'[ 97%] Built target pointcloud_to_gridmap_node\n'}
+[7.915654] (-) TimerEvent: {}
+[8.015918] (-) TimerEvent: {}
+[8.116162] (-) TimerEvent: {}
+[8.216418] (-) TimerEvent: {}
+[8.316713] (-) TimerEvent: {}
+[8.416977] (-) TimerEvent: {}
+[8.517309] (-) TimerEvent: {}
+[8.617646] (-) TimerEvent: {}
+[8.717976] (-) TimerEvent: {}
+[8.818288] (-) TimerEvent: {}
+[8.918617] (-) TimerEvent: {}
+[9.018958] (-) TimerEvent: {}
+[9.119291] (-) TimerEvent: {}
+[9.219620] (-) TimerEvent: {}
+[9.319952] (-) TimerEvent: {}
+[9.420315] (-) TimerEvent: {}
+[9.520636] (-) TimerEvent: {}
+[9.620971] (-) TimerEvent: {}
+[9.721211] (-) TimerEvent: {}
+[9.821543] (-) TimerEvent: {}
+[9.921847] (-) TimerEvent: {}
+[10.022194] (-) TimerEvent: {}
+[10.122573] (-) TimerEvent: {}
+[10.136581] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:34\x1b[m\x1b[K,\n'}
+[10.136743] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30\x1b[m\x1b[K,\n'}
+[10.136796] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapPoint.h:31\x1b[m\x1b[K,\n'}
+[10.136851] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:28\x1b[m\x1b[K:\n'}
+[10.136898] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.136947] (orbslam3) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[10.136993] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.137038] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[10.137089] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/memory.h:48\x1b[m\x1b[K,\n'}
+[10.137138] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3\x1b[m\x1b[K,\n'}
+[10.137182] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/conversions.h:46\x1b[m\x1b[K,\n'}
+[10.137226] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:47\x1b[m\x1b[K,\n'}
+[10.137270] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:24\x1b[m\x1b[K:\n'}
+[10.137317] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.137361] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[10.137405] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.146509] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35\x1b[m\x1b[K,\n'}
+[10.146660] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30\x1b[m\x1b[K,\n'}
+[10.146712] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapPoint.h:31\x1b[m\x1b[K,\n'}
+[10.146759] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:28\x1b[m\x1b[K:\n'}
+[10.146804] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:82:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.146859] (orbslam3) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[10.146904] (orbslam3) StderrLine: {'line': b'      |                                                                                  \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.146950] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[10.146994] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/memory.h:48\x1b[m\x1b[K,\n'}
+[10.147038] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3\x1b[m\x1b[K,\n'}
+[10.147086] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/conversions.h:46\x1b[m\x1b[K,\n'}
+[10.147136] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:47\x1b[m\x1b[K,\n'}
+[10.147180] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:24\x1b[m\x1b[K:\n'}
+[10.147233] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.147280] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[10.147324] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.147368] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35\x1b[m\x1b[K,\n'}
+[10.147412] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30\x1b[m\x1b[K,\n'}
+[10.147456] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapPoint.h:31\x1b[m\x1b[K,\n'}
+[10.147504] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:28\x1b[m\x1b[K:\n'}
+[10.147550] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:82:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.147598] (orbslam3) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[10.147642] (orbslam3) StderrLine: {'line': b'      |                                                                                  \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.147686] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[10.147729] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/memory.h:48\x1b[m\x1b[K,\n'}
+[10.147772] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3\x1b[m\x1b[K,\n'}
+[10.147816] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/conversions.h:46\x1b[m\x1b[K,\n'}
+[10.147860] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:47\x1b[m\x1b[K,\n'}
+[10.147903] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:24\x1b[m\x1b[K:\n'}
+[10.147946] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.147990] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[10.148033] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.222746] (-) TimerEvent: {}
+[10.323072] (-) TimerEvent: {}
+[10.324016] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:34\x1b[m\x1b[K,\n'}
+[10.324133] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30\x1b[m\x1b[K,\n'}
+[10.324188] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapPoint.h:31\x1b[m\x1b[K,\n'}
+[10.324235] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:28\x1b[m\x1b[K:\n'}
+[10.324282] (orbslam3) StderrLine: {'line': b'/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<3, Eigen::Matrix<double, 3, 1> >\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.324329] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_sba.h:40:35:\x1b[m\x1b[K   required from here\n'}
+[10.324375] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.324437] (orbslam3) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[10.324482] (orbslam3) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.324527] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[10.324572] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/memory.h:48\x1b[m\x1b[K,\n'}
+[10.324619] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3\x1b[m\x1b[K,\n'}
+[10.324667] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/conversions.h:46\x1b[m\x1b[K,\n'}
+[10.324712] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:47\x1b[m\x1b[K,\n'}
+[10.324757] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:24\x1b[m\x1b[K:\n'}
+[10.324801] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.324846] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[10.324890] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.336228] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:34\x1b[m\x1b[K,\n'}
+[10.336303] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30\x1b[m\x1b[K,\n'}
+[10.336361] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapPoint.h:31\x1b[m\x1b[K,\n'}
+[10.336409] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:28\x1b[m\x1b[K:\n'}
+[10.336454] (orbslam3) StderrLine: {'line': b'/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<6, g2o::SE3Quat>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.336501] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:59:33:\x1b[m\x1b[K   required from here\n'}
+[10.336546] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.336593] (orbslam3) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[10.336642] (orbslam3) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.336686] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[10.336730] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/memory.h:48\x1b[m\x1b[K,\n'}
+[10.336774] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3\x1b[m\x1b[K,\n'}
+[10.336818] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/conversions.h:46\x1b[m\x1b[K,\n'}
+[10.336862] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:47\x1b[m\x1b[K,\n'}
+[10.336906] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:24\x1b[m\x1b[K:\n'}
+[10.336951] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.336995] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[10.337039] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.348620] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35\x1b[m\x1b[K,\n'}
+[10.348694] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30\x1b[m\x1b[K,\n'}
+[10.348746] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapPoint.h:31\x1b[m\x1b[K,\n'}
+[10.348792] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:28\x1b[m\x1b[K:\n'}
+[10.348837] (orbslam3) StderrLine: {'line': b'/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<6, g2o::SE3Quat, g2o::VertexSE3Expmap, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.348889] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:83:24:\x1b[m\x1b[K   required from here\n'}
+[10.348935] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.348991] (orbslam3) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[10.349037] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.349085] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[10.349134] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/memory.h:48\x1b[m\x1b[K,\n'}
+[10.349183] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3\x1b[m\x1b[K,\n'}
+[10.349227] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/conversions.h:46\x1b[m\x1b[K,\n'}
+[10.349271] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:47\x1b[m\x1b[K,\n'}
+[10.349317] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:24\x1b[m\x1b[K:\n'}
+[10.349361] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.349405] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[10.349449] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.349493] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35\x1b[m\x1b[K,\n'}
+[10.349536] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30\x1b[m\x1b[K,\n'}
+[10.349581] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapPoint.h:31\x1b[m\x1b[K,\n'}
+[10.349624] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:28\x1b[m\x1b[K:\n'}
+[10.349668] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.349714] (orbslam3) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[10.349759] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.349803] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[10.349847] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/memory.h:48\x1b[m\x1b[K,\n'}
+[10.349890] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3\x1b[m\x1b[K,\n'}
+[10.349934] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/conversions.h:46\x1b[m\x1b[K,\n'}
+[10.349977] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:47\x1b[m\x1b[K,\n'}
+[10.350021] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:24\x1b[m\x1b[K:\n'}
+[10.350064] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.350115] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[10.350162] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.376117] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35\x1b[m\x1b[K,\n'}
+[10.376289] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30\x1b[m\x1b[K,\n'}
+[10.376342] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapPoint.h:31\x1b[m\x1b[K,\n'}
+[10.376389] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:28\x1b[m\x1b[K:\n'}
+[10.376436] (orbslam3) StderrLine: {'line': b'/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.376488] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:114:35:\x1b[m\x1b[K   required from here\n'}
+[10.376534] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.376584] (orbslam3) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[10.376629] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.376678] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[10.376723] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/memory.h:48\x1b[m\x1b[K,\n'}
+[10.376768] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3\x1b[m\x1b[K,\n'}
+[10.376813] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/conversions.h:46\x1b[m\x1b[K,\n'}
+[10.376858] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:47\x1b[m\x1b[K,\n'}
+[10.376903] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:24\x1b[m\x1b[K:\n'}
+[10.376947] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.376992] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[10.377037] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.381419] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35\x1b[m\x1b[K,\n'}
+[10.381493] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30\x1b[m\x1b[K,\n'}
+[10.381550] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapPoint.h:31\x1b[m\x1b[K,\n'}
+[10.381596] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:28\x1b[m\x1b[K:\n'}
+[10.381642] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.381696] (orbslam3) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[10.381741] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.381785] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[10.381829] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/memory.h:48\x1b[m\x1b[K,\n'}
+[10.381873] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3\x1b[m\x1b[K,\n'}
+[10.381920] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/conversions.h:46\x1b[m\x1b[K,\n'}
+[10.381965] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:47\x1b[m\x1b[K,\n'}
+[10.382009] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:24\x1b[m\x1b[K:\n'}
+[10.382055] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.382107] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[10.382154] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.405581] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35\x1b[m\x1b[K,\n'}
+[10.405744] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30\x1b[m\x1b[K,\n'}
+[10.405796] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapPoint.h:31\x1b[m\x1b[K,\n'}
+[10.405853] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:28\x1b[m\x1b[K:\n'}
+[10.405899] (orbslam3) StderrLine: {'line': b'/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<3, Eigen::Matrix<double, 3, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.405946] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:146:41:\x1b[m\x1b[K   required from here\n'}
+[10.405994] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.406045] (orbslam3) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[10.406097] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.406146] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[10.406190] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/memory.h:48\x1b[m\x1b[K,\n'}
+[10.406235] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3\x1b[m\x1b[K,\n'}
+[10.406279] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/conversions.h:46\x1b[m\x1b[K,\n'}
+[10.406323] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:47\x1b[m\x1b[K,\n'}
+[10.406367] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:24\x1b[m\x1b[K:\n'}
+[10.406411] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.406455] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[10.406498] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.406542] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35\x1b[m\x1b[K,\n'}
+[10.406586] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30\x1b[m\x1b[K,\n'}
+[10.406630] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapPoint.h:31\x1b[m\x1b[K,\n'}
+[10.406673] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:28\x1b[m\x1b[K:\n'}
+[10.406717] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.406767] (orbslam3) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[10.406811] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.406858] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[10.406903] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/memory.h:48\x1b[m\x1b[K,\n'}
+[10.406946] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3\x1b[m\x1b[K,\n'}
+[10.406990] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/conversions.h:46\x1b[m\x1b[K,\n'}
+[10.407034] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:47\x1b[m\x1b[K,\n'}
+[10.407077] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:24\x1b[m\x1b[K:\n'}
+[10.407128] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.407172] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[10.407216] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.423231] (-) TimerEvent: {}
+[10.488812] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:34\x1b[m\x1b[K,\n'}
+[10.488991] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30\x1b[m\x1b[K,\n'}
+[10.489046] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapPoint.h:31\x1b[m\x1b[K,\n'}
+[10.489103] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:28\x1b[m\x1b[K:\n'}
+[10.489155] (orbslam3) StderrLine: {'line': b'/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<7, g2o::Sim3>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.489203] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:48:35:\x1b[m\x1b[K   required from here\n'}
+[10.489253] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.489303] (orbslam3) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[10.489349] (orbslam3) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.489394] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[10.489438] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/memory.h:48\x1b[m\x1b[K,\n'}
+[10.489483] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3\x1b[m\x1b[K,\n'}
+[10.489528] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/conversions.h:46\x1b[m\x1b[K,\n'}
+[10.489576] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:47\x1b[m\x1b[K,\n'}
+[10.489620] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:24\x1b[m\x1b[K:\n'}
+[10.489665] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.489710] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[10.489754] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.502767] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35\x1b[m\x1b[K,\n'}
+[10.502930] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30\x1b[m\x1b[K,\n'}
+[10.502982] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapPoint.h:31\x1b[m\x1b[K,\n'}
+[10.503029] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:28\x1b[m\x1b[K:\n'}
+[10.503075] (orbslam3) StderrLine: {'line': b'/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<7, g2o::Sim3, g2o::VertexSim3Expmap, g2o::VertexSim3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.503132] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:99:27:\x1b[m\x1b[K   required from here\n'}
+[10.503177] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.503224] (orbslam3) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[10.503269] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.503314] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[10.503359] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/memory.h:48\x1b[m\x1b[K,\n'}
+[10.503406] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3\x1b[m\x1b[K,\n'}
+[10.503450] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/conversions.h:46\x1b[m\x1b[K,\n'}
+[10.503494] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:47\x1b[m\x1b[K,\n'}
+[10.503538] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:24\x1b[m\x1b[K:\n'}
+[10.503582] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.503629] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[10.503673] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.503717] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35\x1b[m\x1b[K,\n'}
+[10.503763] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30\x1b[m\x1b[K,\n'}
+[10.503807] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapPoint.h:31\x1b[m\x1b[K,\n'}
+[10.503850] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:28\x1b[m\x1b[K:\n'}
+[10.503894] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.503940] (orbslam3) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[10.503984] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.504028] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[10.504072] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/memory.h:48\x1b[m\x1b[K,\n'}
+[10.504172] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3\x1b[m\x1b[K,\n'}
+[10.504208] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/conversions.h:46\x1b[m\x1b[K,\n'}
+[10.504231] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:47\x1b[m\x1b[K,\n'}
+[10.504258] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:24\x1b[m\x1b[K:\n'}
+[10.504278] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.504298] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[10.504318] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.520645] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35\x1b[m\x1b[K,\n'}
+[10.520713] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30\x1b[m\x1b[K,\n'}
+[10.520735] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapPoint.h:31\x1b[m\x1b[K,\n'}
+[10.520760] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:28\x1b[m\x1b[K:\n'}
+[10.520779] (orbslam3) StderrLine: {'line': b'/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSim3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.520800] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:130:36:\x1b[m\x1b[K   required from here\n'}
+[10.520820] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.520843] (orbslam3) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[10.520864] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.520884] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[10.520903] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/memory.h:48\x1b[m\x1b[K,\n'}
+[10.520922] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3\x1b[m\x1b[K,\n'}
+[10.520941] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/conversions.h:46\x1b[m\x1b[K,\n'}
+[10.520960] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:47\x1b[m\x1b[K,\n'}
+[10.520978] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:24\x1b[m\x1b[K:\n'}
+[10.520995] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.521016] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[10.521034] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.523277] (-) TimerEvent: {}
+[10.526586] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35\x1b[m\x1b[K,\n'}
+[10.526632] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Converter.h:30\x1b[m\x1b[K,\n'}
+[10.526654] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapPoint.h:31\x1b[m\x1b[K,\n'}
+[10.526673] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:28\x1b[m\x1b[K:\n'}
+[10.526692] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.526717] (orbslam3) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[10.526738] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.526756] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[10.526775] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/memory.h:48\x1b[m\x1b[K,\n'}
+[10.526793] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3\x1b[m\x1b[K,\n'}
+[10.526813] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/conversions.h:46\x1b[m\x1b[K,\n'}
+[10.526830] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:47\x1b[m\x1b[K,\n'}
+[10.526850] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:24\x1b[m\x1b[K:\n'}
+[10.526869] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.526888] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[10.526905] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.623372] (-) TimerEvent: {}
+[10.723590] (-) TimerEvent: {}
+[10.823798] (-) TimerEvent: {}
+[10.924002] (-) TimerEvent: {}
+[10.956219] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Frame.h:41\x1b[m\x1b[K,\n'}
+[10.956325] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/MapPoint.h:32\x1b[m\x1b[K,\n'}
+[10.956352] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:28\x1b[m\x1b[K:\n'}
+[10.956373] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/ImuTypes.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ORB_SLAM3::IMU::Preintegrated::printMeasurements() const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.956396] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/ImuTypes.h:213:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<ORB_SLAM3::IMU::Preintegrated::integrable>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.956429] (orbslam3) StderrLine: {'line': b'  213 |     for (int i = 0; \x1b[01;35m\x1b[Ki < mvMeasurements.size()\x1b[m\x1b[K; i++) {\n'}
+[10.956450] (orbslam3) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.024104] (-) TimerEvent: {}
+[11.124341] (-) TimerEvent: {}
+[11.224576] (-) TimerEvent: {}
+[11.324782] (-) TimerEvent: {}
+[11.395753] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:31\x1b[m\x1b[K,\n'}
+[11.395864] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/System.h:34\x1b[m\x1b[K,\n'}
+[11.395889] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:31\x1b[m\x1b[K:\n'}
+[11.395911] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.395935] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:102:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::precision\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.395983] (orbslam3) StderrLine: {'line': b'  102 |         const float \x1b[01;35m\x1b[Kprecision\x1b[m\x1b[K;\n'}
+[11.396005] (orbslam3) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[11.396024] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:88:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.396045] (orbslam3) StderrLine: {'line': b'   88 |         std::vector<int> \x1b[01;35m\x1b[KmvLappingArea\x1b[m\x1b[K;\n'}
+[11.396066] (orbslam3) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.396089] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:31\x1b[m\x1b[K,\n'}
+[11.396110] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/System.h:34\x1b[m\x1b[K,\n'}
+[11.396129] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:31\x1b[m\x1b[K:\n'}
+[11.396147] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:47:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.396168] (orbslam3) StderrLine: {'line': b'   47 |         \x1b[01;35m\x1b[KKannalaBrandt8\x1b[m\x1b[K(const std::vector<float> _vParameters) : GeometricCamera(_vParameters), precision(1e-6), mvLappingArea(2,0) ,tvr(nullptr) {\n'}
+[11.396188] (orbslam3) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.396206] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Atlas.h:31\x1b[m\x1b[K,\n'}
+[11.396224] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/System.h:34\x1b[m\x1b[K,\n'}
+[11.396244] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:31\x1b[m\x1b[K:\n'}
+[11.396262] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>, float)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.396282] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:102:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::precision\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.396301] (orbslam3) StderrLine: {'line': b'  102 |         const float \x1b[01;35m\x1b[Kprecision\x1b[m\x1b[K;\n'}
+[11.396324] (orbslam3) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[11.396342] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:88:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.396362] (orbslam3) StderrLine: {'line': b'   88 |         std::vector<int> \x1b[01;35m\x1b[KmvLappingArea\x1b[m\x1b[K;\n'}
+[11.396381] (orbslam3) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.396399] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:53:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.396418] (orbslam3) StderrLine: {'line': b'   53 |         \x1b[01;35m\x1b[KKannalaBrandt8\x1b[m\x1b[K(const std::vector<float> _vParameters, const float _precision) : GeometricCamera(_vParameters),\n'}
+[11.396437] (orbslam3) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.396455] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(ORB_SLAM3::KannalaBrandt8*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.396474] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:102:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::precision\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.396494] (orbslam3) StderrLine: {'line': b'  102 |         const float \x1b[01;35m\x1b[Kprecision\x1b[m\x1b[K;\n'}
+[11.396511] (orbslam3) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[11.396529] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:88:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.396549] (orbslam3) StderrLine: {'line': b'   88 |         std::vector<int> \x1b[01;35m\x1b[KmvLappingArea\x1b[m\x1b[K;\n'}
+[11.396567] (orbslam3) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.396585] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/CameraModels/KannalaBrandt8.h:59:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.396603] (orbslam3) StderrLine: {'line': b'   59 |         \x1b[01;35m\x1b[KKannalaBrandt8\x1b[m\x1b[K(KannalaBrandt8* pKannala) : GeometricCamera(pKannala->mvParameters), precision(pKannala->precision), mvLappingArea(2,0) ,tvr(nullptr) {\n'}
+[11.396622] (orbslam3) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.424855] (-) TimerEvent: {}
+[11.525044] (-) TimerEvent: {}
+[11.625244] (-) TimerEvent: {}
+[11.725443] (-) TimerEvent: {}
+[11.825651] (-) TimerEvent: {}
+[11.925858] (-) TimerEvent: {}
+[12.026070] (-) TimerEvent: {}
+[12.126274] (-) TimerEvent: {}
+[12.226480] (-) TimerEvent: {}
+[12.326657] (-) TimerEvent: {}
+[12.426769] (-) TimerEvent: {}
+[12.526883] (-) TimerEvent: {}
+[12.627010] (-) TimerEvent: {}
+[12.727116] (-) TimerEvent: {}
+[12.827268] (-) TimerEvent: {}
+[12.927376] (-) TimerEvent: {}
+[13.027487] (-) TimerEvent: {}
+[13.127600] (-) TimerEvent: {}
+[13.227741] (-) TimerEvent: {}
+[13.327917] (-) TimerEvent: {}
+[13.428031] (-) TimerEvent: {}
+[13.528089] (-) TimerEvent: {}
+[13.628186] (-) TimerEvent: {}
+[13.728311] (-) TimerEvent: {}
+[13.828475] (-) TimerEvent: {}
+[13.928633] (-) TimerEvent: {}
+[14.028778] (-) TimerEvent: {}
+[14.128917] (-) TimerEvent: {}
+[14.229088] (-) TimerEvent: {}
+[14.329263] (-) TimerEvent: {}
+[14.429420] (-) TimerEvent: {}
+[14.529566] (-) TimerEvent: {}
+[14.629712] (-) TimerEvent: {}
+[14.729859] (-) TimerEvent: {}
+[14.830008] (-) TimerEvent: {}
+[14.930127] (-) TimerEvent: {}
+[15.030245] (-) TimerEvent: {}
+[15.130370] (-) TimerEvent: {}
+[15.230490] (-) TimerEvent: {}
+[15.330605] (-) TimerEvent: {}
+[15.430725] (-) TimerEvent: {}
+[15.530850] (-) TimerEvent: {}
+[15.630971] (-) TimerEvent: {}
+[15.731126] (-) TimerEvent: {}
+[15.831243] (-) TimerEvent: {}
+[15.931334] (-) TimerEvent: {}
+[16.031422] (-) TimerEvent: {}
+[16.131515] (-) TimerEvent: {}
+[16.231606] (-) TimerEvent: {}
+[16.331703] (-) TimerEvent: {}
+[16.431801] (-) TimerEvent: {}
+[16.531930] (-) TimerEvent: {}
+[16.632033] (-) TimerEvent: {}
+[16.732121] (-) TimerEvent: {}
+[16.832227] (-) TimerEvent: {}
+[16.932341] (-) TimerEvent: {}
+[17.032456] (-) TimerEvent: {}
+[17.132573] (-) TimerEvent: {}
+[17.232690] (-) TimerEvent: {}
+[17.332807] (-) TimerEvent: {}
+[17.432925] (-) TimerEvent: {}
+[17.533072] (-) TimerEvent: {}
+[17.633201] (-) TimerEvent: {}
+[17.733323] (-) TimerEvent: {}
+[17.833448] (-) TimerEvent: {}
+[17.933571] (-) TimerEvent: {}
+[18.033666] (-) TimerEvent: {}
+[18.133767] (-) TimerEvent: {}
+[18.174977] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/RegistrationGICP.h:12\x1b[m\x1b[K,\n'}
+[18.175066] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Tracking.h:47\x1b[m\x1b[K,\n'}
+[18.175098] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/FrameDrawer.h:32\x1b[m\x1b[K,\n'}
+[18.175119] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/System.h:35\x1b[m\x1b[K,\n'}
+[18.175145] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:31\x1b[m\x1b[K:\n'}
+[18.175176] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/small_gicp/include/small_gicp/benchmark/read_points.hpp:\x1b[m\x1b[K At global scope:\n'}
+[18.175196] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/small_gicp/include/small_gicp/benchmark/read_points.hpp:52:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Eigen::Matrix<float, 4, 1> > small_gicp::read_ply(const string&)\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function\x07-Wunused-function\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.175223] (orbslam3) StderrLine: {'line': b'   52 | static std::vector<Eigen::Vector4f> \x1b[01;35m\x1b[Kread_ply\x1b[m\x1b[K(const std::string& filename) {\n'}
+[18.175243] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[18.175265] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/RegistrationGICP.h:12\x1b[m\x1b[K,\n'}
+[18.175284] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/Tracking.h:47\x1b[m\x1b[K,\n'}
+[18.175302] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/FrameDrawer.h:32\x1b[m\x1b[K,\n'}
+[18.175321] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../include/System.h:35\x1b[m\x1b[K,\n'}
+[18.175341] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/src/rgbd_inertial_ros2.cc:31\x1b[m\x1b[K:\n'}
+[18.175359] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/small_gicp/include/small_gicp/benchmark/read_points.hpp:38:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid small_gicp::write_points(const string&, const std::vector<Eigen::Matrix<float, 4, 1> >&)\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function\x07-Wunused-function\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.175380] (orbslam3) StderrLine: {'line': b'   38 | static void \x1b[01;35m\x1b[Kwrite_points\x1b[m\x1b[K(const std::string& filename, const std::vector<Eigen::Vector4f>& points) {\n'}
+[18.175402] (orbslam3) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.175421] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/../../../Thirdparty/small_gicp/include/small_gicp/benchmark/read_points.hpp:15:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Eigen::Matrix<float, 4, 1> > small_gicp::read_points(const string&)\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function\x07-Wunused-function\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.175444] (orbslam3) StderrLine: {'line': b'   15 | static std::vector<Eigen::Vector4f> \x1b[01;35m\x1b[Kread_points\x1b[m\x1b[K(const std::string& filename) {\n'}
+[18.175463] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.233841] (-) TimerEvent: {}
+[18.333984] (-) TimerEvent: {}
+[18.434148] (-) TimerEvent: {}
+[18.534289] (-) TimerEvent: {}
+[18.634427] (-) TimerEvent: {}
+[18.734574] (-) TimerEvent: {}
+[18.834718] (-) TimerEvent: {}
+[18.934852] (-) TimerEvent: {}
+[19.035151] (-) TimerEvent: {}
+[19.135399] (-) TimerEvent: {}
+[19.235613] (-) TimerEvent: {}
+[19.335849] (-) TimerEvent: {}
+[19.436089] (-) TimerEvent: {}
+[19.536313] (-) TimerEvent: {}
+[19.636526] (-) TimerEvent: {}
+[19.736736] (-) TimerEvent: {}
+[19.836947] (-) TimerEvent: {}
+[19.937152] (-) TimerEvent: {}
+[20.037356] (-) TimerEvent: {}
+[20.137586] (-) TimerEvent: {}
+[20.237796] (-) TimerEvent: {}
+[20.338026] (-) TimerEvent: {}
+[20.438234] (-) TimerEvent: {}
+[20.538407] (-) TimerEvent: {}
+[20.638581] (-) TimerEvent: {}
+[20.738753] (-) TimerEvent: {}
+[20.838929] (-) TimerEvent: {}
+[20.939153] (-) TimerEvent: {}
+[21.039382] (-) TimerEvent: {}
+[21.139600] (-) TimerEvent: {}
+[21.239807] (-) TimerEvent: {}
+[21.340001] (-) TimerEvent: {}
+[21.440188] (-) TimerEvent: {}
+[21.540379] (-) TimerEvent: {}
+[21.640556] (-) TimerEvent: {}
+[21.740754] (-) TimerEvent: {}
+[21.840943] (-) TimerEvent: {}
+[21.941117] (-) TimerEvent: {}
+[22.041313] (-) TimerEvent: {}
+[22.141490] (-) TimerEvent: {}
+[22.241669] (-) TimerEvent: {}
+[22.341865] (-) TimerEvent: {}
+[22.442050] (-) TimerEvent: {}
+[22.542234] (-) TimerEvent: {}
+[22.642424] (-) TimerEvent: {}
+[22.742627] (-) TimerEvent: {}
+[22.842826] (-) TimerEvent: {}
+[22.943018] (-) TimerEvent: {}
+[23.043218] (-) TimerEvent: {}
+[23.143413] (-) TimerEvent: {}
+[23.243617] (-) TimerEvent: {}
+[23.343818] (-) TimerEvent: {}
+[23.444023] (-) TimerEvent: {}
+[23.544238] (-) TimerEvent: {}
+[23.644432] (-) TimerEvent: {}
+[23.744629] (-) TimerEvent: {}
+[23.844832] (-) TimerEvent: {}
+[23.906529] (orbslam3) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable /home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/rgbd_inertial_ros2\x1b[0m\n'}
+[23.944930] (-) TimerEvent: {}
+[24.045142] (-) TimerEvent: {}
+[24.145406] (-) TimerEvent: {}
+[24.197956] (orbslam3) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.4.4\n'}
+[24.198314] (orbslam3) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.4.4\n'}
+[24.245490] (-) TimerEvent: {}
+[24.345712] (-) TimerEvent: {}
+[24.445947] (-) TimerEvent: {}
+[24.498557] (orbslam3) StdoutLine: {'line': b'[100%] Built target rgbd_inertial_ros2\n'}
+[24.506254] (orbslam3) CommandEnded: {'returncode': 0}
+[24.506663] (orbslam3) JobProgress: {'identifier': 'orbslam3', 'progress': 'install'}
+[24.512859] (orbslam3) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zju/navigation/GeoFlowSlam/build/orbslam3'], 'cwd': '/home/zju/navigation/GeoFlowSlam/build/orbslam3', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'zju'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/lib:/home/zju/navigation/GeoFlowSlam/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zju'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1758'), ('SYSTEMD_EXEC_PID', '2012'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('COLCON_PREFIX_PATH', '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install:/home/zju/navigation/GeoFlowSlam/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'zju'), ('JOURNAL_STREAM', '8:6674'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zju'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/zju/.npm-global/bin:/home/zju/.local/bin:/home/zju/anaconda3/condabin:/home/zju/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zju-System-Product-Name:@/tmp/.ICE-unix/1985,unix/zju-System-Product-Name:/tmp/.ICE-unix/1985'), ('INVOCATION_ID', '1efae5faa8304702bd5f619450579d5d'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install:/home/zju/navigation/GeoFlowSlam/install:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/zju/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:cea7f058-f8b8-4ebc-ae66-c2e7bf0b4194'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zju/navigation/GeoFlowSlam/build/orbslam3'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/zju/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install:/home/zju/navigation/GeoFlowSlam/install:/opt/ros/humble')]), 'shell': False}
+[24.519354] (orbslam3) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[24.519543] (orbslam3) StdoutLine: {'line': b'-- Installing: /home/zju/navigation/GeoFlowSlam/install/lib/libDBoW2.so\n'}
+[24.519685] (orbslam3) StdoutLine: {'line': b'-- Installing: /home/zju/navigation/GeoFlowSlam/install/lib/libg2o.so\n'}
+[24.520636] (orbslam3) StdoutLine: {'line': b'-- Installing: /home/zju/navigation/GeoFlowSlam/install/lib/libsmall_gicp.so\n'}
+[24.520951] (orbslam3) StdoutLine: {'line': b'-- Installing: /home/zju/navigation/GeoFlowSlam/install/lib/liborbslam3.so\n'}
+[24.530631] (orbslam3) StdoutLine: {'line': b'-- Set runtime path of "/home/zju/navigation/GeoFlowSlam/install/lib/liborbslam3.so" to ""\n'}
+[24.530716] (orbslam3) StdoutLine: {'line': b'-- Installing: /home/zju/navigation/GeoFlowSlam/install/lib/orbslam3/rgbd_inertial_ros2\n'}
+[24.531642] (orbslam3) StdoutLine: {'line': b'-- Set runtime path of "/home/zju/navigation/GeoFlowSlam/install/lib/orbslam3/rgbd_inertial_ros2" to ""\n'}
+[24.531678] (orbslam3) StdoutLine: {'line': b'-- Installing: /home/zju/navigation/GeoFlowSlam/install/lib/orbslam3/pointcloud_to_gridmap_node\n'}
+[24.532204] (orbslam3) StdoutLine: {'line': b'-- Set runtime path of "/home/zju/navigation/GeoFlowSlam/install/lib/orbslam3/pointcloud_to_gridmap_node" to ""\n'}
+[24.532268] (orbslam3) StdoutLine: {'line': b'-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/lib/orbslam3/rgbd_inertial_ros2\n'}
+[24.532372] (orbslam3) StdoutLine: {'line': b'-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/lib/orbslam3/pointcloud_to_gridmap_node\n'}
+[24.532474] (orbslam3) StdoutLine: {'line': b'-- Installing: /home/zju/navigation/GeoFlowSlam/install/share/ament_index/resource_index/package_run_dependencies/orbslam3\n'}
+[24.532644] (orbslam3) StdoutLine: {'line': b'-- Installing: /home/zju/navigation/GeoFlowSlam/install/share/ament_index/resource_index/parent_prefix_path/orbslam3\n'}
+[24.532789] (orbslam3) StdoutLine: {'line': b'-- Installing: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/environment/ament_prefix_path.sh\n'}
+[24.532824] (orbslam3) StdoutLine: {'line': b'-- Installing: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/environment/ament_prefix_path.dsv\n'}
+[24.532877] (orbslam3) StdoutLine: {'line': b'-- Installing: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/environment/path.sh\n'}
+[24.532911] (orbslam3) StdoutLine: {'line': b'-- Installing: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/environment/path.dsv\n'}
+[24.532966] (orbslam3) StdoutLine: {'line': b'-- Installing: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/local_setup.bash\n'}
+[24.533061] (orbslam3) StdoutLine: {'line': b'-- Installing: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/local_setup.sh\n'}
+[24.533152] (orbslam3) StdoutLine: {'line': b'-- Installing: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/local_setup.zsh\n'}
+[24.533211] (orbslam3) StdoutLine: {'line': b'-- Installing: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/local_setup.dsv\n'}
+[24.533264] (orbslam3) StdoutLine: {'line': b'-- Installing: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/package.dsv\n'}
+[24.533315] (orbslam3) StdoutLine: {'line': b'-- Installing: /home/zju/navigation/GeoFlowSlam/install/share/ament_index/resource_index/packages/orbslam3\n'}
+[24.533361] (orbslam3) StdoutLine: {'line': b'-- Installing: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[24.533416] (orbslam3) StdoutLine: {'line': b'-- Installing: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/cmake/orbslam3Config.cmake\n'}
+[24.533496] (orbslam3) StdoutLine: {'line': b'-- Installing: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/cmake/orbslam3Config-version.cmake\n'}
+[24.533549] (orbslam3) StdoutLine: {'line': b'-- Installing: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/package.xml\n'}
+[24.534385] (orbslam3) CommandEnded: {'returncode': 0}
+[24.543235] (orbslam3) JobEnded: {'identifier': 'orbslam3', 'rc': 0}
+[24.561712] (-) TimerEvent: {}
+[24.561804] (-) EventReactorShutdown: {}

@@ -84,7 +84,7 @@ uncompress_vocabulary() {           # 定义解压函数
 
 # 主执行逻辑
 # 编译过不用再编译
-# uncompress_vocabulary
-# build_Thirdparty
+uncompress_vocabulary
+build_Thirdparty
 build_Examples_ROS2
 

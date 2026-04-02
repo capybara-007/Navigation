@@ -85,13 +85,13 @@ class ImageGrabber : public rclcpp::Node {
 
   void GrabImageRgb(const sensor_msgs::msg::Image::SharedPtr msg) {
     std::lock_guard<std::mutex> lock(mBufMutexRgb);
-    if (!imgRgbBuf.empty()) imgRgbBuf.pop();
+    if (!imgRgbBuf.size() >= 50) imgRgbBuf.pop();
     imgRgbBuf.push(msg);
   }
 
   void GrabImageDepth(const sensor_msgs::msg::Image::SharedPtr msg) {
     std::lock_guard<std::mutex> lock(mBufMutexDepth);
-    if (!imgDepthBuf.empty()) imgDepthBuf.pop();
+    if (!imgDepthBuf.size() >= 50) imgDepthBuf.pop();
     imgDepthBuf.push(msg);
   }
 
@@ -259,8 +259,7 @@ class ImageGrabber : public rclcpp::Node {
              cv::resize(imRgb, rgb_input, dsize, 0, 0, cv::INTER_LINEAR); // RGB用线性插值更好
              cv::resize(imDepth, depth_input, dsize, 0, 0, cv::INTER_NEAREST); // 深度必须用最近邻
         }
-        
-        // ===================== 【核心修复】深度图“一刀切”物理截断 =====================
+
         // 在传给 SLAM 之前，直接把 5 米开外的深度数据抹零 (0 代表无效像素)
         // 这样 SLAM 和“伪雷达”就绝对不可能在 5 米外提取出包含极大坐标的噪点
         if (depth_input.type() == CV_16U) {
@@ -272,7 +271,6 @@ class ImageGrabber : public rclcpp::Node {
             // 如果深度图是 32FC1 格式，单位通常是米 (5.0米)
             cv::threshold(depth_input, depth_input, 5.0, 0, cv::THRESH_TOZERO_INV);
         }
-        // ==============================================================================
 
         // 调用 SLAM
         {

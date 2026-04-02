@@ -1,0 +1,118 @@
+[0.045s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--merge-install', '--parallel-workers', '4', '--cmake-force-configure', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release', '-DBUILD_TESTING:BOOL=OFF', '-DENABLE_VIEWER=ON', '-DENABLE_ASYNC=ON', '-DENABLE_OMP=ON']
+[0.045s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=True, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_BUILD_TYPE=Release', '-DBUILD_TESTING:BOOL=OFF', '-DENABLE_VIEWER=ON', '-DENABLE_ASYNC=ON', '-DENABLE_OMP=ON'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=True, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x740bbe430760>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x740bbe4301c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x740bbe4301c0>>)
+[0.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.116s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.136s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'orbslam3'
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.145s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/zju/navigation/GeoFlowSlam/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install' in the environment variable AMENT_PREFIX_PATH doesn't contain any 'local_setup.*' files.
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/zju/navigation/GeoFlowSlam/install' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.145s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/zju/navigation/GeoFlowSlam/install' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.146s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install
+[0.146s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 323 installed packages in /opt/ros/humble
+[0.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'orbslam3' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release', '-DBUILD_TESTING:BOOL=OFF', '-DENABLE_VIEWER=ON', '-DENABLE_ASYNC=ON', '-DENABLE_OMP=ON']'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'orbslam3' build argument 'cmake_target' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'orbslam3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'orbslam3' build argument 'cmake_clean_cache' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'orbslam3' build argument 'cmake_clean_first' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'orbslam3' build argument 'cmake_force_configure' from command line to 'True'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'orbslam3' build argument 'ament_cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'orbslam3' build argument 'catkin_cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'orbslam3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.163s] DEBUG:colcon.colcon_core.verb:Building package 'orbslam3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/build/orbslam3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release', '-DBUILD_TESTING:BOOL=OFF', '-DENABLE_VIEWER=ON', '-DENABLE_ASYNC=ON', '-DENABLE_OMP=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': True, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install', 'merge_install': True, 'path': '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial', 'symlink_install': False, 'test_result_base': None}
+[0.163s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.164s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.164s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial' with build type 'ament_cmake'
+[0.164s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial'
+[0.165s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.165s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.165s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.170s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/build/orbslam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING:BOOL=OFF -DENABLE_VIEWER=ON -DENABLE_ASYNC=ON -DENABLE_OMP=ON -DCMAKE_INSTALL_PREFIX=/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install
+[3.519s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/build/orbslam3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING:BOOL=OFF -DENABLE_VIEWER=ON -DENABLE_ASYNC=ON -DENABLE_OMP=ON -DCMAKE_INSTALL_PREFIX=/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install
+[3.520s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/build/orbslam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/build/orbslam3
+[693.751s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/build/orbslam3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/build/orbslam3
+[693.758s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/build/orbslam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/build/orbslam3
+[693.781s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbslam3)
+[693.781s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/build/orbslam3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/build/orbslam3
+[693.783s] Level 1:colcon.colcon_core.environment:checking '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install' for CMake module files
+[693.783s] Level 1:colcon.colcon_core.environment:checking '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install' for CMake config files
+[693.783s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbslam3', 'cmake_prefix_path')
+[693.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/share/orbslam3/hook/cmake_prefix_path.ps1'
+[693.784s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/share/orbslam3/hook/cmake_prefix_path.dsv'
+[693.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/share/orbslam3/hook/cmake_prefix_path.sh'
+[693.785s] Level 1:colcon.colcon_core.environment:checking '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/lib'
+[693.785s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbslam3', 'ld_library_path_lib')
+[693.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/share/orbslam3/hook/ld_library_path_lib.ps1'
+[693.786s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/share/orbslam3/hook/ld_library_path_lib.dsv'
+[693.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/share/orbslam3/hook/ld_library_path_lib.sh'
+[693.787s] Level 1:colcon.colcon_core.environment:checking '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/bin'
+[693.787s] Level 1:colcon.colcon_core.environment:checking '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/lib/pkgconfig/orbslam3.pc'
+[693.787s] Level 1:colcon.colcon_core.environment:checking '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/lib/python3.10/site-packages'
+[693.787s] Level 1:colcon.colcon_core.environment:checking '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/bin'
+[693.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/share/orbslam3/package.ps1'
+[693.788s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/share/orbslam3/package.dsv'
+[693.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/share/orbslam3/package.sh'
+[693.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/share/orbslam3/package.bash'
+[693.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/share/orbslam3/package.zsh'
+[693.790s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/share/colcon-core/packages/orbslam3)
+[693.790s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbslam3)
+[693.790s] Level 1:colcon.colcon_core.environment:checking '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install' for CMake module files
+[693.791s] Level 1:colcon.colcon_core.environment:checking '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install' for CMake config files
+[693.791s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbslam3', 'cmake_prefix_path')
+[693.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/share/orbslam3/hook/cmake_prefix_path.ps1'
+[693.791s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/share/orbslam3/hook/cmake_prefix_path.dsv'
+[693.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/share/orbslam3/hook/cmake_prefix_path.sh'
+[693.792s] Level 1:colcon.colcon_core.environment:checking '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/lib'
+[693.792s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbslam3', 'ld_library_path_lib')
+[693.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/share/orbslam3/hook/ld_library_path_lib.ps1'
+[693.792s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/share/orbslam3/hook/ld_library_path_lib.dsv'
+[693.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/share/orbslam3/hook/ld_library_path_lib.sh'
+[693.793s] Level 1:colcon.colcon_core.environment:checking '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/bin'
+[693.793s] Level 1:colcon.colcon_core.environment:checking '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/lib/pkgconfig/orbslam3.pc'
+[693.793s] Level 1:colcon.colcon_core.environment:checking '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/lib/python3.10/site-packages'
+[693.793s] Level 1:colcon.colcon_core.environment:checking '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/bin'
+[693.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/share/orbslam3/package.ps1'
+[693.794s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/share/orbslam3/package.dsv'
+[693.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/share/orbslam3/package.sh'
+[693.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/share/orbslam3/package.bash'
+[693.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/share/orbslam3/package.zsh'
+[693.795s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/share/colcon-core/packages/orbslam3)
+[693.795s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[693.795s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[693.795s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[693.795s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[693.954s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[693.955s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[693.955s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[693.963s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[693.963s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/local_setup.ps1'
+[693.964s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/_local_setup_util_ps1.py'
+[693.964s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/setup.ps1'
+[693.964s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/local_setup.sh'
+[693.965s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/_local_setup_util_sh.py'
+[693.965s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/setup.sh'
+[693.965s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/local_setup.bash'
+[693.966s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/setup.bash'
+[693.966s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/local_setup.zsh'
+[693.966s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/setup.zsh'

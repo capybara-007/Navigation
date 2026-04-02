@@ -1,0 +1,38 @@
+[0.006s] Invoking command in '/home/zju/navigation/GeoFlowSlam/build/orbslam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zju/navigation/GeoFlowSlam/build/orbslam3 -- -j20 -l20
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target pointcloud_to_gridmap_node[0m
+[0.065s] [  2%] [32mBuilding CXX object CMakeFiles/pointcloud_to_gridmap_node.dir/src/pointcloud_to_gridmap.cpp.o[0m
+[0.069s] [35m[1mConsolidate compiler generated dependencies of target orbslam3[0m
+[0.148s] [ 92%] Built target orbslam3
+[0.162s] [35m[1mConsolidate compiler generated dependencies of target rgbd_inertial_ros2[0m
+[0.179s] [ 97%] Built target rgbd_inertial_ros2
+[7.412s] [100%] [32m[1mLinking CXX executable /home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/pointcloud_to_gridmap_node[0m
+[7.743s] [100%] Built target pointcloud_to_gridmap_node
+[7.750s] Invoked command in '/home/zju/navigation/GeoFlowSlam/build/orbslam3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zju/navigation/GeoFlowSlam/build/orbslam3 -- -j20 -l20
+[7.755s] Invoking command in '/home/zju/navigation/GeoFlowSlam/build/orbslam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zju/navigation/GeoFlowSlam/build/orbslam3
+[7.763s] -- Install configuration: "Release"
+[7.763s] -- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/lib/libDBoW2.so
+[7.764s] -- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/lib/libg2o.so
+[7.764s] -- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/lib/libsmall_gicp.so
+[7.764s] -- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/lib/liborbslam3.so
+[7.764s] -- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/lib/orbslam3/rgbd_inertial_ros2
+[7.764s] -- Installing: /home/zju/navigation/GeoFlowSlam/install/lib/orbslam3/pointcloud_to_gridmap_node
+[7.765s] -- Set runtime path of "/home/zju/navigation/GeoFlowSlam/install/lib/orbslam3/pointcloud_to_gridmap_node" to ""
+[7.766s] -- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/lib/orbslam3/rgbd_inertial_ros2
+[7.766s] -- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/lib/orbslam3/pointcloud_to_gridmap_node
+[7.766s] -- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/ament_index/resource_index/package_run_dependencies/orbslam3
+[7.766s] -- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/ament_index/resource_index/parent_prefix_path/orbslam3
+[7.766s] -- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/environment/ament_prefix_path.sh
+[7.766s] -- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/environment/ament_prefix_path.dsv
+[7.766s] -- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/environment/path.sh
+[7.766s] -- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/environment/path.dsv
+[7.766s] -- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/local_setup.bash
+[7.767s] -- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/local_setup.sh
+[7.767s] -- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/local_setup.zsh
+[7.767s] -- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/local_setup.dsv
+[7.767s] -- Installing: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/package.dsv
+[7.767s] -- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/ament_index/resource_index/packages/orbslam3
+[7.767s] -- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.767s] -- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/cmake/orbslam3Config.cmake
+[7.767s] -- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/cmake/orbslam3Config-version.cmake
+[7.767s] -- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/package.xml
+[7.769s] Invoked command in '/home/zju/navigation/GeoFlowSlam/build/orbslam3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zju/navigation/GeoFlowSlam/build/orbslam3

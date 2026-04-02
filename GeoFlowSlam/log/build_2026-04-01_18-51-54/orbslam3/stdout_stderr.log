@@ -1,0 +1,32 @@
+[  2%] [32mBuilding CXX object CMakeFiles/pointcloud_to_gridmap_node.dir/src/pointcloud_to_gridmap.cpp.o[0m
+[ 92%] Built target orbslam3
+[35m[1mConsolidate compiler generated dependencies of target rgbd_inertial_ros2[0m
+[ 97%] Built target rgbd_inertial_ros2
+[100%] [32m[1mLinking CXX executable /home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/pointcloud_to_gridmap_node[0m
+[100%] Built target pointcloud_to_gridmap_node
+-- Install configuration: "Release"
+-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/lib/libDBoW2.so
+-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/lib/libg2o.so
+-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/lib/libsmall_gicp.so
+-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/lib/liborbslam3.so
+-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/lib/orbslam3/rgbd_inertial_ros2
+-- Installing: /home/zju/navigation/GeoFlowSlam/install/lib/orbslam3/pointcloud_to_gridmap_node
+-- Set runtime path of "/home/zju/navigation/GeoFlowSlam/install/lib/orbslam3/pointcloud_to_gridmap_node" to ""
+-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/lib/orbslam3/rgbd_inertial_ros2
+-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/lib/orbslam3/pointcloud_to_gridmap_node
+-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/ament_index/resource_index/package_run_dependencies/orbslam3
+-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/ament_index/resource_index/parent_prefix_path/orbslam3
+-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/environment/ament_prefix_path.sh
+-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/environment/path.sh
+-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/environment/path.dsv
+-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/local_setup.bash
+-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/local_setup.sh
+-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/local_setup.zsh
+-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/local_setup.dsv
+-- Installing: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/package.dsv
+-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/ament_index/resource_index/packages/orbslam3
+-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/cmake/orbslam3Config.cmake
+-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/cmake/orbslam3Config-version.cmake
+-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/package.xml

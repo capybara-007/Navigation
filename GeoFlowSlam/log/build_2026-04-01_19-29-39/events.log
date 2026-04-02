@@ -1,0 +1,125 @@
+[0.000000] (-) TimerEvent: {}
+[0.000164] (orbslam3) JobQueued: {'identifier': 'orbslam3', 'dependencies': OrderedDict()}
+[0.000285] (orbslam3) JobStarted: {'identifier': 'orbslam3'}
+[0.004236] (orbslam3) JobProgress: {'identifier': 'orbslam3', 'progress': 'cmake'}
+[0.004957] (orbslam3) JobProgress: {'identifier': 'orbslam3', 'progress': 'build'}
+[0.005619] (orbslam3) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zju/navigation/GeoFlowSlam/build/orbslam3', '--', '-j20', '-l20'], 'cwd': '/home/zju/navigation/GeoFlowSlam/build/orbslam3', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'zju'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/lib:/home/zju/navigation/GeoFlowSlam/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zju'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1758'), ('SYSTEMD_EXEC_PID', '2012'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('COLCON_PREFIX_PATH', '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install:/home/zju/navigation/GeoFlowSlam/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'zju'), ('JOURNAL_STREAM', '8:6674'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zju'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/zju/.npm-global/bin:/home/zju/.local/bin:/home/zju/anaconda3/condabin:/home/zju/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zju-System-Product-Name:@/tmp/.ICE-unix/1985,unix/zju-System-Product-Name:/tmp/.ICE-unix/1985'), ('INVOCATION_ID', '1efae5faa8304702bd5f619450579d5d'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install:/home/zju/navigation/GeoFlowSlam/install:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/zju/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:cea7f058-f8b8-4ebc-ae66-c2e7bf0b4194'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zju/navigation/GeoFlowSlam/build/orbslam3'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/zju/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install:/home/zju/navigation/GeoFlowSlam/install:/opt/ros/humble')]), 'shell': False}
+[0.049012] (orbslam3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pointcloud_to_gridmap_node\x1b[0m\n'}
+[0.065895] (orbslam3) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/pointcloud_to_gridmap_node.dir/src/pointcloud_to_gridmap.cpp.o\x1b[0m\n'}
+[0.099828] (-) TimerEvent: {}
+[0.101460] (orbslam3) StdoutLine: {'line': b'[ 92%] Built target orbslam3\n'}
+[0.125890] (orbslam3) StdoutLine: {'line': b'[ 97%] Built target rgbd_inertial_ros2\n'}
+[0.199933] (-) TimerEvent: {}
+[0.300216] (-) TimerEvent: {}
+[0.400501] (-) TimerEvent: {}
+[0.500787] (-) TimerEvent: {}
+[0.601066] (-) TimerEvent: {}
+[0.701340] (-) TimerEvent: {}
+[0.801614] (-) TimerEvent: {}
+[0.901901] (-) TimerEvent: {}
+[1.002184] (-) TimerEvent: {}
+[1.102468] (-) TimerEvent: {}
+[1.202794] (-) TimerEvent: {}
+[1.303064] (-) TimerEvent: {}
+[1.403340] (-) TimerEvent: {}
+[1.503646] (-) TimerEvent: {}
+[1.603934] (-) TimerEvent: {}
+[1.704216] (-) TimerEvent: {}
+[1.804491] (-) TimerEvent: {}
+[1.904800] (-) TimerEvent: {}
+[2.005081] (-) TimerEvent: {}
+[2.105358] (-) TimerEvent: {}
+[2.205639] (-) TimerEvent: {}
+[2.305926] (-) TimerEvent: {}
+[2.406206] (-) TimerEvent: {}
+[2.506487] (-) TimerEvent: {}
+[2.606777] (-) TimerEvent: {}
+[2.707058] (-) TimerEvent: {}
+[2.807340] (-) TimerEvent: {}
+[2.907633] (-) TimerEvent: {}
+[3.007925] (-) TimerEvent: {}
+[3.108206] (-) TimerEvent: {}
+[3.208516] (-) TimerEvent: {}
+[3.308802] (-) TimerEvent: {}
+[3.409087] (-) TimerEvent: {}
+[3.509372] (-) TimerEvent: {}
+[3.609647] (-) TimerEvent: {}
+[3.709939] (-) TimerEvent: {}
+[3.810222] (-) TimerEvent: {}
+[3.910501] (-) TimerEvent: {}
+[4.010800] (-) TimerEvent: {}
+[4.111071] (-) TimerEvent: {}
+[4.211332] (-) TimerEvent: {}
+[4.311614] (-) TimerEvent: {}
+[4.411906] (-) TimerEvent: {}
+[4.512199] (-) TimerEvent: {}
+[4.612477] (-) TimerEvent: {}
+[4.712750] (-) TimerEvent: {}
+[4.813033] (-) TimerEvent: {}
+[4.913304] (-) TimerEvent: {}
+[5.013584] (-) TimerEvent: {}
+[5.113818] (-) TimerEvent: {}
+[5.214092] (-) TimerEvent: {}
+[5.314371] (-) TimerEvent: {}
+[5.414666] (-) TimerEvent: {}
+[5.514950] (-) TimerEvent: {}
+[5.615217] (-) TimerEvent: {}
+[5.715481] (-) TimerEvent: {}
+[5.815736] (-) TimerEvent: {}
+[5.916000] (-) TimerEvent: {}
+[6.016265] (-) TimerEvent: {}
+[6.116532] (-) TimerEvent: {}
+[6.216803] (-) TimerEvent: {}
+[6.317077] (-) TimerEvent: {}
+[6.417336] (-) TimerEvent: {}
+[6.517603] (-) TimerEvent: {}
+[6.617885] (-) TimerEvent: {}
+[6.718155] (-) TimerEvent: {}
+[6.818424] (-) TimerEvent: {}
+[6.918694] (-) TimerEvent: {}
+[7.019004] (-) TimerEvent: {}
+[7.119315] (-) TimerEvent: {}
+[7.219640] (-) TimerEvent: {}
+[7.319979] (-) TimerEvent: {}
+[7.420292] (-) TimerEvent: {}
+[7.520646] (-) TimerEvent: {}
+[7.621065] (-) TimerEvent: {}
+[7.721555] (-) TimerEvent: {}
+[7.821978] (-) TimerEvent: {}
+[7.836700] (orbslam3) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable /home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/pointcloud_to_gridmap_node\x1b[0m\n'}
+[7.922105] (-) TimerEvent: {}
+[8.022502] (-) TimerEvent: {}
+[8.122962] (-) TimerEvent: {}
+[8.181339] (orbslam3) StdoutLine: {'line': b'[100%] Built target pointcloud_to_gridmap_node\n'}
+[8.189256] (orbslam3) CommandEnded: {'returncode': 0}
+[8.189819] (orbslam3) JobProgress: {'identifier': 'orbslam3', 'progress': 'install'}
+[8.197219] (orbslam3) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zju/navigation/GeoFlowSlam/build/orbslam3'], 'cwd': '/home/zju/navigation/GeoFlowSlam/build/orbslam3', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'zju'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install/lib:/home/zju/navigation/GeoFlowSlam/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zju'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1758'), ('SYSTEMD_EXEC_PID', '2012'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('COLCON_PREFIX_PATH', '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install:/home/zju/navigation/GeoFlowSlam/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'zju'), ('JOURNAL_STREAM', '8:6674'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zju'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/zju/.npm-global/bin:/home/zju/.local/bin:/home/zju/anaconda3/condabin:/home/zju/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zju-System-Product-Name:@/tmp/.ICE-unix/1985,unix/zju-System-Product-Name:/tmp/.ICE-unix/1985'), ('INVOCATION_ID', '1efae5faa8304702bd5f619450579d5d'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install:/home/zju/navigation/GeoFlowSlam/install:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/zju/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:cea7f058-f8b8-4ebc-ae66-c2e7bf0b4194'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zju/navigation/GeoFlowSlam/build/orbslam3'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/zju/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zju/navigation/GeoFlowSlam/Examples/ROS2/RGB-D-Inertial/install:/home/zju/navigation/GeoFlowSlam/install:/opt/ros/humble')]), 'shell': False}
+[8.202454] (orbslam3) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[8.202574] (orbslam3) StdoutLine: {'line': b'-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/lib/libDBoW2.so\n'}
+[8.202616] (orbslam3) StdoutLine: {'line': b'-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/lib/libg2o.so\n'}
+[8.202650] (orbslam3) StdoutLine: {'line': b'-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/lib/libsmall_gicp.so\n'}
+[8.202700] (orbslam3) StdoutLine: {'line': b'-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/lib/liborbslam3.so\n'}
+[8.202817] (orbslam3) StdoutLine: {'line': b'-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/lib/orbslam3/rgbd_inertial_ros2\n'}
+[8.202974] (orbslam3) StdoutLine: {'line': b'-- Installing: /home/zju/navigation/GeoFlowSlam/install/lib/orbslam3/pointcloud_to_gridmap_node\n'}
+[8.203783] (orbslam3) StdoutLine: {'line': b'-- Set runtime path of "/home/zju/navigation/GeoFlowSlam/install/lib/orbslam3/pointcloud_to_gridmap_node" to ""\n'}
+[8.203865] (orbslam3) StdoutLine: {'line': b'-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/lib/orbslam3/rgbd_inertial_ros2\n'}
+[8.204003] (orbslam3) StdoutLine: {'line': b'-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/lib/orbslam3/pointcloud_to_gridmap_node\n'}
+[8.204088] (orbslam3) StdoutLine: {'line': b'-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/ament_index/resource_index/package_run_dependencies/orbslam3\n'}
+[8.204134] (orbslam3) StdoutLine: {'line': b'-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/ament_index/resource_index/parent_prefix_path/orbslam3\n'}
+[8.204165] (orbslam3) StdoutLine: {'line': b'-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/environment/ament_prefix_path.sh\n'}
+[8.204227] (orbslam3) StdoutLine: {'line': b'-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/environment/ament_prefix_path.dsv\n'}
+[8.204292] (orbslam3) StdoutLine: {'line': b'-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/environment/path.sh\n'}
+[8.204322] (orbslam3) StdoutLine: {'line': b'-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/environment/path.dsv\n'}
+[8.204349] (orbslam3) StdoutLine: {'line': b'-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/local_setup.bash\n'}
+[8.204377] (orbslam3) StdoutLine: {'line': b'-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/local_setup.sh\n'}
+[8.204430] (orbslam3) StdoutLine: {'line': b'-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/local_setup.zsh\n'}
+[8.204461] (orbslam3) StdoutLine: {'line': b'-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/local_setup.dsv\n'}
+[8.204490] (orbslam3) StdoutLine: {'line': b'-- Installing: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/package.dsv\n'}
+[8.204519] (orbslam3) StdoutLine: {'line': b'-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/ament_index/resource_index/packages/orbslam3\n'}
+[8.204548] (orbslam3) StdoutLine: {'line': b'-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.204577] (orbslam3) StdoutLine: {'line': b'-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/cmake/orbslam3Config.cmake\n'}
+[8.204621] (orbslam3) StdoutLine: {'line': b'-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/cmake/orbslam3Config-version.cmake\n'}
+[8.204663] (orbslam3) StdoutLine: {'line': b'-- Up-to-date: /home/zju/navigation/GeoFlowSlam/install/share/orbslam3/package.xml\n'}
+[8.205526] (orbslam3) CommandEnded: {'returncode': 0}
+[8.218840] (orbslam3) JobEnded: {'identifier': 'orbslam3', 'rc': 0}
+[8.219409] (-) EventReactorShutdown: {}
