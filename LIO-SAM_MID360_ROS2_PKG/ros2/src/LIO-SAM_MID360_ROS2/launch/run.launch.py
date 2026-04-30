@@ -26,7 +26,14 @@ def generate_launch_description():
         Node(
             package='tf2_ros',
             executable='static_transform_publisher',
-            arguments='0.0 0.0 0.0 0.0 0.0 0.0 map odom'.split(' '),
+            arguments='0.0 0.0 0.0 0.0 0.0 0.0 map odom_flat'.split(' '),
+            parameters=[parameter_file],
+            output='screen'
+            ),
+        Node(
+            package='tf2_ros',
+            executable='static_transform_publisher',
+            arguments='0.0 0.0 0.0 0.0 0.349066 0.0 odom_flat odom'.split(' '),
             parameters=[parameter_file],
             output='screen'
             ),
@@ -64,6 +71,13 @@ def generate_launch_description():
             package='lio_sam',
             executable='lio_sam_mapOptimization',
             name='lio_sam_mapOptimization',
+            parameters=[parameter_file],
+            output='screen'
+        ),
+        Node(
+            package='lio_sam',
+            executable='lio_sam_height_filter',
+            name='lio_sam_height_filter',
             parameters=[parameter_file],
             output='screen'
         ),

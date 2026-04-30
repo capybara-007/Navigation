@@ -91,3 +91,14 @@
     globalMapVisualizationSearchRadius: 1000.0    # meters, global map visualization radius
     globalMapVisualizationPoseDensity: 10.0       # meters, global map visualization keyframe density
     globalMapVisualizationLeafSize: 1.0           # meters, global map visualization cloud density
+
+lio_sam_height_filter:
+  ros__parameters:
+    input_topic: "/lio_sam/mapping/cloud_registered"
+    output_topic: "/lio_sam/mapping/cloud_registered_height_filtered"
+    target_frame: "map"                           # filter in RViz fixed frame; map.z is perpendicular to the grid
+    axis: "z"
+    min_height: -1.0                             # meters, keep points above this map-frame height
+    max_height: 0.1                               # meters, keep points below this map-frame height
+    drop_empty_clouds: false
+    transform_timeout_sec: 0.05
