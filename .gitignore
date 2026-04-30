@@ -1,3 +1,6 @@
 ORBvoc.txt
 dataset_save_path/
 build/
+install/
+log/
+logs/
