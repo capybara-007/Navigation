@@ -4,3 +4,4 @@ build/
 install/
 log/
 logs/
+.DS_Store
