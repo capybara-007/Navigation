@@ -85,13 +85,158 @@ awk '{printf "%.6f %s %s %s %s %s %s %s\n", $1/1000.0, $2, $3, $4, $5, $6, $7, $
 awk '{printf "%.6f %s %s %s %s %s %s %s\n", $1/1000.0, $2, $3, $4, $5, $6, $7, $8}' CameraTrajectory_NoOF_NoICP_Lidar.txt > CameraTrajectory_sec_NoICP.txt
 ```
 
-### 第二步：计算绝对位姿误差 (APE)
 
-使用 `evo_ape` 将新生成的 Lidar 轨迹和激光真值进行对比：
+### 第二步：裁剪轨迹时间范围（例如420s只取前360s）
+
+如果轨迹总长度是 420s，但只想评估前 360s，可以直接按照 TUM 文件第一列时间戳进行裁剪。TUM 格式每一行通常为：
+
+```text
+时间戳 x y z qx qy qz qw
+```
+
+因此只需要保留第一列时间戳在指定范围内的行即可。
+
+#### 方法一：时间戳从0开始时，直接裁剪0~360s
+
+如果 `groundtruth.txt` 和 `CameraTrajectory_sec.txt` 的第一列时间戳都是从 0 附近开始，可以直接执行：
+
+```bash
+# 裁剪真值轨迹前360秒
+awk '$1 >= 0 && $1 <= 360 {print}' groundtruth.txt > groundtruth_0_360.txt
+
+# 裁剪估计轨迹前360秒
+awk '$1 >= 0 && $1 <= 360 {print}' CameraTrajectory_sec.txt > CameraTrajectory_sec_0_360.txt
+
+# 如果还有另一条估计轨迹，也一起裁剪
+awk '$1 >= 0 && $1 <= 360 {print}' CameraTrajectory_sec_NoICP.txt > CameraTrajectory_sec_NoICP_0_360.txt
+```
+
+之后计算 APE 时，就使用裁剪后的文件：
+
+```bash
+evo_ape tum groundtruth_0_360.txt CameraTrajectory_sec_0_360.txt -a -s -p --t_max_diff 0.05
+evo_ape tum groundtruth_0_360.txt CameraTrajectory_sec_NoICP_0_360.txt -a -s -p --t_max_diff 0.05
+```
+
+#### 方法二：时间戳不是从0开始时，按第一帧时间自动裁剪前360s
+
+有些 TUM 轨迹的时间戳不是从 0 开始，而是类似 `1710000000.123456` 这样的绝对时间。这种情况下不要直接用 `$1 <= 360`，否则会裁剪不到任何数据。可以先读取真值轨迹第一帧时间，然后保留 `[第一帧时间, 第一帧时间+360]` 这段数据：
+
+```bash
+# 以groundtruth第一帧时间作为统一起点
+START=$(awk 'NR==1 {print $1}' groundtruth.txt)
+END=$(awk -v s="$START" 'BEGIN {printf "%.6f", s + 360}')
+
+# 裁剪真值轨迹前360秒
+awk -v s="$START" -v e="$END" '$1 >= s && $1 <= e {print}' groundtruth.txt > groundtruth_0_360.txt
+
+# 裁剪估计轨迹前360秒
+awk -v s="$START" -v e="$END" '$1 >= s && $1 <= e {print}' CameraTrajectory_sec.txt > CameraTrajectory_sec_0_360.txt
+
+# 如果还有另一条估计轨迹，也一起裁剪
+awk -v s="$START" -v e="$END" '$1 >= s && $1 <= e {print}' CameraTrajectory_sec_NoICP.txt > CameraTrajectory_sec_NoICP_0_360.txt
+```
+
+检查裁剪后的时间范围：
+
+```bash
+# 查看每条轨迹的第一帧和最后一帧时间戳
+head -n 1 groundtruth_0_360.txt && tail -n 1 groundtruth_0_360.txt
+head -n 1 CameraTrajectory_sec_0_360.txt && tail -n 1 CameraTrajectory_sec_0_360.txt
+head -n 1 CameraTrajectory_sec_NoICP_0_360.txt && tail -n 1 CameraTrajectory_sec_NoICP_0_360.txt
+```
+
+#### 方法三：裁剪任意中间时间段，例如120s~260s
+
+如果不想从开头裁剪，而是只想评估中间某一段轨迹，例如只取第 `120s` 到第 `260s` 之间的数据，可以设置相对起止时间：
+
+```bash
+# 想裁剪的相对时间段，单位：秒
+T_START=120
+T_END=260
+```
+
+如果轨迹时间戳本身就是从 0 附近开始，可以直接按照 `[T_START, T_END]` 裁剪：
+
+```bash
+# 裁剪真值轨迹120s~260s
+awk -v s="$T_START" -v e="$T_END" '$1 >= s && $1 <= e {print}' groundtruth.txt > groundtruth_120_260.txt
+
+# 裁剪估计轨迹120s~260s
+awk -v s="$T_START" -v e="$T_END" '$1 >= s && $1 <= e {print}' CameraTrajectory_sec.txt > CameraTrajectory_sec_120_260.txt
+
+# 如果还有另一条估计轨迹，也一起裁剪
+awk -v s="$T_START" -v e="$T_END" '$1 >= s && $1 <= e {print}' CameraTrajectory_sec_NoICP.txt > CameraTrajectory_sec_NoICP_120_260.txt
+```
+
+如果轨迹时间戳是绝对时间，例如 `1710000000.123456`，则需要先读取第一帧时间戳，再加上相对起止时间：
+
+```bash
+# 想裁剪的相对时间段，单位：秒
+T_START=120
+T_END=260
+
+# 以groundtruth第一帧时间作为统一起点
+BASE=$(awk 'NR==1 {print $1}' groundtruth.txt)
+START=$(awk -v b="$BASE" -v s="$T_START" 'BEGIN {printf "%.6f", b + s}')
+END=$(awk -v b="$BASE" -v e="$T_END" 'BEGIN {printf "%.6f", b + e}')
+
+# 裁剪真值轨迹指定时间段
+awk -v s="$START" -v e="$END" '$1 >= s && $1 <= e {print}' groundtruth.txt > groundtruth_120_260.txt
+
+# 裁剪估计轨迹指定时间段
+awk -v s="$START" -v e="$END" '$1 >= s && $1 <= e {print}' CameraTrajectory_sec.txt > CameraTrajectory_sec_120_260.txt
+
+# 如果还有另一条估计轨迹，也一起裁剪
+awk -v s="$START" -v e="$END" '$1 >= s && $1 <= e {print}' CameraTrajectory_sec_NoICP.txt > CameraTrajectory_sec_NoICP_120_260.txt
+```
+
+之后计算 APE 时，直接使用裁剪后的中间段轨迹：
+
+```bash
+evo_ape tum groundtruth_120_260.txt CameraTrajectory_sec_120_260.txt -a -s -p --t_max_diff 0.05
+evo_ape tum groundtruth_120_260.txt CameraTrajectory_sec_NoICP_120_260.txt -a -s -p --t_max_diff 0.05
+```
+
+检查裁剪后的时间范围和行数：
+
+```bash
+# 查看首尾时间戳
+head -n 1 groundtruth_120_260.txt && tail -n 1 groundtruth_120_260.txt
+head -n 1 CameraTrajectory_sec_120_260.txt && tail -n 1 CameraTrajectory_sec_120_260.txt
+head -n 1 CameraTrajectory_sec_NoICP_120_260.txt && tail -n 1 CameraTrajectory_sec_NoICP_120_260.txt
+
+# 查看裁剪后帧数，避免裁剪为空
+wc -l groundtruth_120_260.txt CameraTrajectory_sec_120_260.txt CameraTrajectory_sec_NoICP_120_260.txt
+```
+
+如果输出文件行数为 0，通常说明时间戳不是从 0 开始，但是误用了第一种直接裁剪方法；或者 `T_START`、`T_END` 超出了轨迹实际时间范围。
+
+注意：真值轨迹和估计轨迹一定要裁剪到同一个时间区间，否则 `evo_ape` 匹配到的帧数可能不一致，甚至会因为时间戳对不上而报错。
+
+### 第三步：计算绝对位姿误差 (APE)
+
+使用 `evo_ape` 将新生成的 Lidar 轨迹和激光真值进行对比。
+
+如果没有裁剪，仍然使用原始轨迹文件：
 
 ```bash
 evo_ape tum groundtruth.txt CameraTrajectory_sec.txt -a -s -p --t_max_diff 0.05
 evo_ape tum groundtruth.txt CameraTrajectory_sec_NoICP.txt -a -s -p --t_max_diff 0.05
+```
+
+如果已经裁剪为前 360s，则使用裁剪后的轨迹文件：
+
+```bash
+evo_ape tum groundtruth_0_360.txt CameraTrajectory_sec_0_360.txt -a -s -p --t_max_diff 0.05
+evo_ape tum groundtruth_0_360.txt CameraTrajectory_sec_NoICP_0_360.txt -a -s -p --t_max_diff 0.05
+```
+
+如果裁剪的是中间时间段，例如 120s~260s，则改用对应的中间段文件：
+
+```bash
+evo_ape tum groundtruth_120_260.txt CameraTrajectory_sec_120_260.txt -a -s -p --t_max_diff 0.05
+evo_ape tum groundtruth_120_260.txt CameraTrajectory_sec_NoICP_120_260.txt -a -s -p --t_max_diff 0.05
 ```
 
 > - **`evo_ape`**：
@@ -126,13 +271,13 @@ evo_ape tum groundtruth.txt CameraTrajectory_sec_NoICP.txt -a -s -p --t_max_diff
 评价指标：
 
 -  **rmse (均方根误差) **
-  - **最核心的指标。** 它代表了估计轨迹偏离真实轨迹的整体水平。
+   - **最核心的指标。** 它代表了估计轨迹偏离真实轨迹的整体水平。
 -  **max (最大误差) **
-  - 在整个跑图过程中，误差最严重的一个地方。（您可以看一眼弹出的 3D 轨迹图，颜色**最红**的那一段就是这里，通常发生在剧烈转弯、特征丢失或者纯转动的地方）。
+   - 在整个跑图过程中，误差最严重的一个地方。（您可以看一眼弹出的 3D 轨迹图，颜色**最红**的那一段就是这里，通常发生在剧烈转弯、特征丢失或者纯转动的地方）。
 -  **mean (平均误差) **
 -  **median (中位数误差)  **
 -  **min (最小误差) **
 -  **std (标准差) : **
-  - 代表误差的波动程度。0.47米的波动说明系统的误差不是一直保持不变的，可能在某些路段建图很好，某些路段突然飘了一下。
+   - 代表误差的波动程度。0.47米的波动说明系统的误差不是一直保持不变的，可能在某些路段建图很好，某些路段突然飘了一下。
 -  **sse (误差平方和) :**
-  - 所有误差平方的累加，一般主要用于数学计算，不直接作为直观评测指标。
+   - 所有误差平方的累加，一般主要用于数学计算，不直接作为直观评测指标。
