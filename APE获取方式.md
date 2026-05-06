@@ -85,7 +85,7 @@ awk '{printf "%.6f %s %s %s %s %s %s %s\n", $1/1000.0, $2, $3, $4, $5, $6, $7, $
 awk '{printf "%.6f %s %s %s %s %s %s %s\n", $1/1000.0, $2, $3, $4, $5, $6, $7, $8}' CameraTrajectory_NoOF_NoICP_Lidar.txt > CameraTrajectory_sec_NoICP.txt
 ```
 
-### 第二步：计算绝对轨迹误差 (ATE)
+### 第二步：计算绝对位姿误差 (APE)
 
 使用 `evo_ape` 将新生成的 Lidar 轨迹和激光真值进行对比：
 
